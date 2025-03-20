@@ -21,7 +21,7 @@ public class Main {
         // Brush
         Brush brush = new Brush(BrushColor.WHITE);
 
-        // Virat
+
         Virat virat = new Virat(brush, clip1, ticket, cricket);
         virat.play();
         virat.clean();
