@@ -1,12 +1,12 @@
 package com.xworkz.Encapsulation;
 
     class Bankacc {
-        private String account;
+        private String Accountholder;
         private double balance;
 
         // Constructor
         public Bankacc(String accountHolder, double balance) {
-            this.account = account;
+            this.Accountholder = Accountholder;
             this.balance = balance;
         }
 
