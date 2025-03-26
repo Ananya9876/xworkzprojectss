@@ -8,7 +8,7 @@ package com.xworkz.Encapsulation;
         // Static block: executes only once when the class is loaded
         static {
             System.out.println("Static block executed!");
-            companyName = "Tech Corp";
+            companyName = "Cognizant";
         }
 
         // Constructor
@@ -26,12 +26,11 @@ package com.xworkz.Encapsulation;
     // Main class
     public class Block {
         public static void main(String[] args) {
-            Employee e1 = new Employee(101, "Alice");
-            Employee e2 = new Employee(102, "Bob");
+            Employee e1 = new Employee(01, "Ananya");
+            Employee e2 = new Employee(02, "Dhanu");
 
             e1.display();
             e2.display();
         }
     }
 
-}
