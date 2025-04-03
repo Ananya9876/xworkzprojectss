@@ -1,11 +1,13 @@
 package com.xworkz.inheritence.internal.charger;
 
 public class Charger {
-    public Charger(){
+    public Charger() {
         System.out.println("running non-arg const Charger");
     }
-    public void plug(){
+    public void plug()
+    {
         System.out.println("plug Charger");
+
     }
     public void white(){
         System.out.println("white Charger");
