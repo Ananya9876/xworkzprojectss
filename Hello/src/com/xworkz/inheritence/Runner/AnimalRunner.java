@@ -1,4 +1,4 @@
-package com.xworkz.inheritence.runner;
+package com.xworkz.inheritence.Runner;
 
 import com.xworkz.inheritence.internal.animal.Animal;
 import com.xworkz.inheritence.internal.animal.Dog;
