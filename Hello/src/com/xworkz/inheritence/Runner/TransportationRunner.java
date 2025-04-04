@@ -12,7 +12,7 @@ public class TransportationRunner {
         transport.capacity();
         transport.type();
 
-        System.out.println("-----------");
+        System.out.println("**************************************");
 
         Train train = new Train();
         train.move();
@@ -20,5 +20,7 @@ public class TransportationRunner {
         train.fuel();
         train.capacity();
         train.type();
+
+        System.out.println("**************************************");
     }
 }

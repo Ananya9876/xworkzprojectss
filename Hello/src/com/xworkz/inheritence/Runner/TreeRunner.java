@@ -12,7 +12,7 @@ public class TreeRunner {
         tree.oxygen();
         tree.lifespan();
 
-        System.out.println("-----------");
+        System.out.println("**************************************");
 
         Oak oak = new Oak();
         oak.roots();
@@ -20,5 +20,7 @@ public class TreeRunner {
         oak.leaves();
         oak.oxygen();
         oak.lifespan();
+
+        System.out.println("**************************************");
     }
 }

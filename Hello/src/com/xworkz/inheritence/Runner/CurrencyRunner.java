@@ -12,7 +12,7 @@ public class CurrencyRunner {
         currency.symbol();
         currency.usedForTrade();
 
-        System.out.println("-----------");
+        System.out.println("**************************************");
 
         Dollar dollar = new Dollar();
         dollar.value();
@@ -20,5 +20,6 @@ public class CurrencyRunner {
         dollar.country();
         dollar.symbol();
         dollar.usedForTrade();
+        System.out.println("**************************************");
     }
 }

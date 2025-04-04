@@ -12,13 +12,15 @@ public class BankRunner {
         bank.interest();
         bank.atm();
 
-        System.out.println("---------------");
+        System.out.println("**************************************");
         HDFCBank hdfcBank=new HDFCBank();
         hdfcBank.deposit();
         hdfcBank.withdraw();
         hdfcBank.loan();
         hdfcBank.interest();
         hdfcBank.atm();
+
+        System.out.println("**************************************");
 
     }
 }

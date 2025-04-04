@@ -12,12 +12,13 @@ public class DollRunner {
         doll.move();
         doll.collect();
 
-        System.out.println("-----------------");
+        System.out.println("**************************************");
         BarbieDoll barbieDoll = new BarbieDoll();
         barbieDoll.play();
         barbieDoll.dressUp();
         barbieDoll.talk();
         barbieDoll.move();
         barbieDoll.collect();
+        System.out.println("**************************************");
     }
 }

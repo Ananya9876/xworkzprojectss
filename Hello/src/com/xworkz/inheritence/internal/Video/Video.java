@@ -2,7 +2,7 @@ package com.xworkz.inheritence.internal.Video;
 
 public class Video {
     public Video() {
-        System.out.println("Running non-arg constructor MusicInstrument");
+        System.out.println("Running non-arg constructor Video");
     }
     public void clip() {
         System.out.println("Add the small clip");

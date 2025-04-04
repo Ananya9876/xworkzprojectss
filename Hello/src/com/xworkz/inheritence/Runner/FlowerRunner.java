@@ -12,7 +12,7 @@ public class FlowerRunner {
         flower.petals();
         flower.pollination();
 
-        System.out.println("-----------");
+        System.out.println("**************************************");
 
         Rose rose = new Rose();
         rose.bloom();
@@ -20,5 +20,7 @@ public class FlowerRunner {
         rose.color();
         rose.petals();
         rose.pollination();
+
+        System.out.println("**************************************");
     }
 }

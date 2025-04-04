@@ -2,21 +2,21 @@ package com.xworkz.inheritence.internal.Material;
 
 public class Material {
     public Material() {
-        System.out.println("Running non-arg constructor Metal");
+        System.out.println("Running non-arg constructor Material");
     }
     public void conductivity() {
-        System.out.println("Metal is a good conductor of electricity");
+        System.out.println("Material is a good conductor of electricity");
     }
     public void durability() {
-        System.out.println("Metal is durable");
+        System.out.println("Material is durable");
     }
     public void malleability() {
-        System.out.println("Metal can be shaped into different forms");
+        System.out.println("Material can be shaped into different forms");
     }
     public void density() {
-        System.out.println("Metal has a certain density");
+        System.out.println("Material has a certain density");
     }
     public void corrosion() {
-        System.out.println("Some metals corrode over time");
+        System.out.println("Some Materials corrode over time");
     }
 }

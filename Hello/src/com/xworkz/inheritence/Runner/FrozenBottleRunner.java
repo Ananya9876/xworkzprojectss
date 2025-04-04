@@ -12,12 +12,14 @@ public class FrozenBottleRunner {
         bottle.meltSlowly();
         bottle.carryAnywhere();
 
-        System.out.println("-----------------");
+        System.out.println("**************************************");
         IceBottle iceBottle = new IceBottle();
         iceBottle.freezeWater();
         iceBottle.keepCold();
         iceBottle.useForCooling();
         iceBottle.meltSlowly();
         iceBottle.carryAnywhere();
+
+        System.out.println("**************************************");
     }
 }

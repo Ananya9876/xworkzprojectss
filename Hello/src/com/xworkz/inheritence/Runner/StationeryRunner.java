@@ -11,11 +11,13 @@ public class StationeryRunner {
         stationery.color();
         stationery.size();
 
-        System.out.println("-----------");
+        System.out.println("**************************************");
         Pen pen = new Pen();
         pen.write();
         pen.erase();
         pen.color();
         pen.size();
+
+        System.out.println("**************************************");
     }
 }

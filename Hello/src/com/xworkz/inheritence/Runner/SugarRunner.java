@@ -12,12 +12,14 @@ public class SugarRunner {
         sugar.addToDesserts();
         sugar.usedInBaking();
 
-        System.out.println("-----------------");
+        System.out.println("**************************************");
         BrownSugar brownSugar = new BrownSugar();
         brownSugar.sweeten();
         brownSugar.dissolve();
         brownSugar.store();
         brownSugar.addToDesserts();
         brownSugar.usedInBaking();
+
+        System.out.println("**************************************");
     }
 }

@@ -12,7 +12,7 @@ public class VideoRunner {
         video.shortfilm();
         video.trailer();
 
-        System.out.println("-----------");
+        System.out.println("**************************************");
 
         Movie movie=new Movie();
         movie.clip();
@@ -20,5 +20,7 @@ public class VideoRunner {
         video.series();
         video.shortfilm();
         video.trailer();
+
+        System.out.println("**************************************");
     }
 }

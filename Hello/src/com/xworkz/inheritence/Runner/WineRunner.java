@@ -12,12 +12,16 @@ public class WineRunner {
         wine.servedInGlasses();
         wine.usedInCooking();
 
-        System.out.println("-----------------");
+        System.out.println("**************************************");
         RedWine redWine = new RedWine();
         redWine.madeFromGrapes();
         redWine.containsAlcohol();
         redWine.improvesWithAge();
         redWine.servedInGlasses();
         redWine.usedInCooking();
+
+        System.out.println("**************************************");
+
+
     }
 }

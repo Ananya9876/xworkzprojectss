@@ -12,12 +12,14 @@ public class SwimRunner {
         swim.isPopularSport();
         swim.hasDifferentStyles();
 
-        System.out.println("-----------------");
+        System.out.println("**************************************");
         FreestyleSwim freestyleSwim = new FreestyleSwim();
         freestyleSwim.improvesHealth();
         freestyleSwim.requiresWater();
         freestyleSwim.isFullBodyExercise();
         freestyleSwim.isPopularSport();
         freestyleSwim.hasDifferentStyles();
+
+        System.out.println("**************************************");
     }
 }

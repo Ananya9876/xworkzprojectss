@@ -2,7 +2,7 @@ package com.xworkz.inheritence.internal.Lipstick;
 
 public class Lipstick {
     public Lipstick() {
-        System.out.println("Running non-arg constructor MusicInstrument");
+        System.out.println("Running non-arg constructor Lipstick");
     }
     public void apply() {
         System.out.println("Apply the lipstick");

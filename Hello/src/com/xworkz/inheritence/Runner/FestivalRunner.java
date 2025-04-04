@@ -11,11 +11,12 @@ public class FestivalRunner {
         festival.holidays();
         festival.food();
 
-        System.out.println("-----------");
+        System.out.println("**************************************");
         Diwali diwali = new Diwali();
         diwali.celebrate();
         diwali.traditions();
         diwali.holidays();
         diwali.food();
+        System.out.println("**************************************");
     }
 }

@@ -12,12 +12,14 @@ public class TowelRunner {
         towel.usedInBathroom();
         towel.requiresWashing();
 
-        System.out.println("-----------------");
+        System.out.println("**************************************");
         BathTowel bathTowel = new BathTowel();
         bathTowel.absorbWater();
         bathTowel.madeOfCotton();
         bathTowel.availableInSizes();
         bathTowel.usedInBathroom();
         bathTowel.requiresWashing();
+
+        System.out.println("**************************************");
     }
 }

@@ -12,12 +12,14 @@ public class FishRunner {
         fish.comesInDifferentSpecies();
         fish.laysEggs();
 
-        System.out.println("-----------------");
+        System.out.println("**************************************");
         GoldFish goldFish = new GoldFish();
         goldFish.livesInWater();
         goldFish.breathesThroughGills();
         goldFish.swimsUsingFins();
         goldFish.comesInDifferentSpecies();
         goldFish.laysEggs();
+
+        System.out.println("**************************************");
     }
 }

@@ -12,12 +12,14 @@ public class BikeRunner {
         bike.requiresHelmet();
         bike.comesInDifferentModels();
 
-        System.out.println("-----------------");
+        System.out.println("**************************************");
         SportsBike sportsBike = new SportsBike();
         sportsBike.usedForTransportation();
         sportsBike.hasTwoWheels();
         sportsBike.runsOnFuel();
         sportsBike.requiresHelmet();
         sportsBike.comesInDifferentModels();
+
+        System.out.println("**************************************");
     }
 }

@@ -12,12 +12,14 @@ public class SpectsRunner {
         spects.protectsEyes();
         spects.canBeCustomized();
 
-        System.out.println("-----------------");
+        System.out.println("**************************************");
         Sunglasses sunglasses = new Sunglasses();
         sunglasses.improvesVision();
         sunglasses.hasLenses();
         sunglasses.comesInFrames();
         sunglasses.protectsEyes();
         sunglasses.canBeCustomized();
+
+        System.out.println("**************************************");
     }
 }
