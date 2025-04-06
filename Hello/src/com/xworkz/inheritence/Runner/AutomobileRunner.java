@@ -5,12 +5,22 @@ import com.xworkz.inheritence.internal.automobile.Car;
 
 public class AutomobileRunner {
     public static void main(String[] args) {
-        Automobile automobile = new Car();
+
+        Automobile automobile = new Automobile();
         automobile.move();
         automobile.stop();
         automobile.fuel();
         automobile.speed();
         automobile.transport();
+
+        System.out.println("**************************************");
+
+        Automobile auto = new Car();
+        auto.move();
+        auto.stop();
+        auto.fuel();
+        auto.speed();
+        auto.transport();
 
         System.out.println("**************************************");
         Car car=new Car();

@@ -5,6 +5,15 @@ import com.xworkz.inheritence.internal.area.Bedroom;
 
 public class AreaRunner {
     public static void main(String[] args) {
+
+        Area areas = new Area();
+        areas.enter();
+        areas.decorate();
+        areas.clean();
+        areas.ventilate();
+
+        System.out.println("**************************************");
+
         Area area = new Bedroom();
         area.enter();
         area.decorate();
@@ -18,6 +27,5 @@ public class AreaRunner {
         bedroom.clean();
         bedroom.ventilate();
 
-        System.out.println("**************************************");
     }
 }

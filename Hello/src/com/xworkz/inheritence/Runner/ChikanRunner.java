@@ -5,14 +5,22 @@ import com.xworkz.inheritence.internal.chikan.ChikanEmbroidery;
 
 public class ChikanRunner {
     public static void main(String[] args) {
-        Chikan chikan = new ChikanEmbroidery();
+
+        Chikan chikan = new Chikan();
         chikan.traditionalArt();
         chikan.handcrafted();
         chikan.originatedInLucknow();
         chikan.delicateDesigns();
         chikan.usedOnFabrics();
+        System.out.println("**************************************");
+        Chikan chikan1 = new ChikanEmbroidery();
+        chikan1.traditionalArt();
+        chikan1.handcrafted();
+        chikan1.originatedInLucknow();
+        chikan1.delicateDesigns();
+        chikan1.usedOnFabrics();
 
-        System.out.println("-----------------");
+        System.out.println("**************************************");
         ChikanEmbroidery chikanEmbroidery = new ChikanEmbroidery();
         chikanEmbroidery.traditionalArt();
         chikanEmbroidery.handcrafted();

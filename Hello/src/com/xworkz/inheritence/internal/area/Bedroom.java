@@ -5,4 +5,20 @@ public class Bedroom extends Area {
         super();
         System.out.println("Running non-arg constructor Bedroom");
     }
+    @Override
+    public void enter() {
+        System.out.println("Area entered");
+    }
+    @Override
+    public void decorate() {
+        System.out.println("Decorated area");
+    }
+    @Override
+    public void clean() {
+        System.out.println("Cleaned area");
+    }
+    @Override
+    public void ventilate() {
+        System.out.println("Ventilated area");
+    }
 }

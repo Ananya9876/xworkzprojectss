@@ -5,14 +5,22 @@ import com.xworkz.inheritence.internal.charger.Wire;
 
 public class ChargerRunner {
     public static void main(String[] args) {
-        Charger charger=new Wire();
+
+        Charger charger=new Charger();
         charger.cPin();
         charger.phone();
         charger.plug();
         charger.small();
         charger.white();
+        System.out.println("**************************************");
+        Charger charger1 =new Wire();
+        charger1.cPin();
+        charger1.phone();
+        charger1.plug();
+        charger1.small();
+        charger1.white();
 
-        System.out.println("---------");
+        System.out.println("**************************************");
         Wire wire=new Wire();
         wire.cPin();
         wire.plug();

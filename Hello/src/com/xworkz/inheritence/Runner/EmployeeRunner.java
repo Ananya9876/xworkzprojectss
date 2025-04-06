@@ -5,14 +5,23 @@ import com.xworkz.inheritence.internal.employee.Manager;
 
 public class EmployeeRunner {
     public static void main(String[] args) {
-        Employee emp = new Manager();
+
+        Employee emp = new Employee();
         emp.work();
         emp.salary();
         emp.benefits();
         emp.experience();
         emp.department();
+        System.out.println("**************************************");
+        Employee emply = new Manager();
+        emply.work();
+        emply.salary();
+        emply.benefits();
+        emply.experience();
+        emply.department();
 
-        System.out.println("-------------------");
+
+        System.out.println("**************************************");
         Manager manager=new Manager();
         manager.work();
         manager.salary();

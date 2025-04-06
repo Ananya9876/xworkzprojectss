@@ -5,14 +5,27 @@ import com.xworkz.inheritence.internal.laptop.GamingLaptop;
 
 public class LaptopRunner {
     public static void main(String[] args) {
-        Laptop laptop = new GamingLaptop();
+
+
+
+        Laptop laptop = new Laptop();
         laptop.runSoftware();
         laptop.providePortability();
         laptop.connectToInternet();
         laptop.supportMultitasking();
         laptop.longBatteryLife();
 
-        System.out.println("-----------------");
+        System.out.println("**************************************");
+        Laptop lap = new GamingLaptop();
+        lap.runSoftware();
+        lap.providePortability();
+        lap.connectToInternet();
+        lap.supportMultitasking();
+        lap.longBatteryLife();
+
+
+
+        System.out.println("**************************************");
         GamingLaptop gamingLaptop = new GamingLaptop();
         gamingLaptop.runSoftware();
         gamingLaptop.providePortability();

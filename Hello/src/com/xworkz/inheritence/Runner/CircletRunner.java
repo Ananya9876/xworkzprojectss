@@ -5,14 +5,22 @@ import com.xworkz.inheritence.internal.circlet.Type;
 
 public class CircletRunner {
     public static void main(String[] args) {
-        Circlet circlet =new Type();
+
+        Circlet circlet =new Circlet();
         circlet.size();
         circlet.color();
         circlet.shape();
         circlet.matel();
         circlet.quality();
+        System.out.println("**************************************");
+        Circlet circlet1 =new Type();
+        circlet1.size();
+        circlet1.color();
+        circlet1.shape();
+        circlet1.matel();
+        circlet1.quality();
 
-        System.out.println("----------");
+        System.out.println("**************************************");
         Type type = new Type();
         type.size();
         type.color();

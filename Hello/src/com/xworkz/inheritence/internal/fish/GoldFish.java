@@ -5,4 +5,24 @@ public class GoldFish extends Fish {
         super();
         System.out.println("Running non-arg constructor GoldFish");
     }
+    @Override
+    public void livesInWater() {
+        System.out.println("In water,there are fishes");
+    }
+    @Override
+    public void breathesThroughGills() {
+        System.out.println("Using gills Fish breathe");
+    }
+    @Override
+    public void swimsUsingFins() {
+        System.out.println("Use fins to swim");
+    }
+    @Override
+    public void comesInDifferentSpecies() {
+        System.out.println("Exist in many species");
+    }
+    @Override
+    public void laysEggs() {
+        System.out.println("They lay eggs to reproduce");
+    }
 }

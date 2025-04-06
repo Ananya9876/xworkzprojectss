@@ -5,12 +5,21 @@ import com.xworkz.inheritence.internal.bike.SportsBike;
 
 public class BikeRunner {
     public static void main(String[] args) {
-        Bike bike = new SportsBike();
+        Bike bike = new Bike();
         bike.usedForTransportation();
         bike.hasTwoWheels();
         bike.runsOnFuel();
         bike.requiresHelmet();
         bike.comesInDifferentModels();
+
+        System.out.println("**************************************");
+
+        Bike bike1 = new SportsBike();
+        bike1.usedForTransportation();
+        bike1.hasTwoWheels();
+        bike1.runsOnFuel();
+        bike1.requiresHelmet();
+        bike1.comesInDifferentModels();
 
         System.out.println("**************************************");
         SportsBike sportsBike = new SportsBike();

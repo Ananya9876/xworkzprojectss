@@ -5,11 +5,19 @@ import com.xworkz.inheritence.internal.refreshment.Coffee;
 
 public class RefreshmentRunner {
     public static void main(String[] args) {
-        Refreshment refreshment =new Coffee();
+
+
+        Refreshment refreshment =new Refreshment();
         refreshment.drink();
         refreshment.temperature();
         refreshment.flavor();
         refreshment.refresh();
+        System.out.println("**************************************");
+        Refreshment refreshment1 =new Coffee();
+        refreshment1.drink();
+        refreshment1.temperature();
+        refreshment1.flavor();
+        refreshment1.refresh();
 
         System.out.println("-----------");
         Coffee coffee = new Coffee();

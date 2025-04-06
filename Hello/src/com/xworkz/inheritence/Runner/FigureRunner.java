@@ -5,12 +5,21 @@ import com.xworkz.inheritence.internal.figure.Circle;
 
 public class FigureRunner {
     public static void main(String[] args) {
-        Figure figure = new Circle();
+
+        Figure figure = new Figure();
         figure.draw();
         figure.area();
         figure.perimeter();
         figure.color();
         figure.dimension();
+        System.out.println("**************************************");
+
+        Figure figure1 = new Circle();
+        figure1.draw();
+        figure1.area();
+        figure1.perimeter();
+        figure1.color();
+        figure1.dimension();
 
         System.out.println("**************************************");
         Circle circle=new Circle();

@@ -5,14 +5,22 @@ import com.xworkz.inheritence.internal.game.Chess;
 
 public class GameRunner {
     public static void main(String[] args) {
-        Game game = new Chess();
+
+        Game game = new Game();
         game.play();
         game.strategy();
         game.opponent();
         game.winner();
         game.duration();
+        System.out.println("**************************************");
+        Game games = new Chess();
+        games.play();
+        games.strategy();
+        games.opponent();
+        games.winner();
+        games.duration();
 
-        System.out.println("-----------");
+        System.out.println("**************************************");
 
         Chess chess = new Chess();
         chess.play();

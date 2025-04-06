@@ -5,12 +5,19 @@ import com.xworkz.inheritence.internal.bucket.PlasticBucket;
 
 public class BucketRunner {
     public static void main(String[] args) {
-        Bucket bucket = new PlasticBucket();
+
+        Bucket bucket = new Bucket();
         bucket.storeWater();
         bucket.carry();
         bucket.clean();
 
-        System.out.println("-----------------");
+        System.out.println("**************************************");
+        Bucket bucket1 = new PlasticBucket();
+        bucket1.storeWater();
+        bucket1.carry();
+        bucket1.clean();
+
+        System.out.println("**************************************");
         PlasticBucket plasticBucket = new PlasticBucket();
         plasticBucket.storeWater();
         plasticBucket.carry();

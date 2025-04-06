@@ -5,13 +5,20 @@ import com.xworkz.inheritence.internal.construction.House;
 
 public class ConstructionRunner {
     public static void main(String[] args) {
-        Construction construction =new House();
+
+        Construction construction =new Construction();
         construction.shelter();
         construction.structure();
         construction.floors();
         construction.foundation();
+        System.out.println("**************************************");
+        Construction construction1 =new House();
+        construction1.shelter();
+        construction1.structure();
+        construction1.floors();
+        construction1.foundation();
 
-        System.out.println("-----------");
+        System.out.println("**************************************");
         House house = new House();
         house.shelter();
         house.structure();

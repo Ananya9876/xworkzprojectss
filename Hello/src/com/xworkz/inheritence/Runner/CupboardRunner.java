@@ -5,14 +5,22 @@ import com.xworkz.inheritence.internal.cupboard.Door;
 
 public class CupboardRunner {
     public static void main(String[] args) {
-        Cupboard cupboard =new Door();
+
+        Cupboard cupboard =new Cupboard();
         cupboard.close();
         cupboard.key();
         cupboard.lock();
         cupboard.handle();
         cupboard.open();
+        System.out.println("**************************************");
+        Cupboard cupboard1 =new Door();
+        cupboard1.close();
+        cupboard1.key();
+        cupboard1.lock();
+        cupboard1.handle();
+        cupboard1.open();
 
-        System.out.println("-----------");
+        System.out.println("**************************************");
         Door door=new Door();
         door.close();
         door.key();

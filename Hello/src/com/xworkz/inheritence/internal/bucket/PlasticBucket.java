@@ -5,4 +5,16 @@ public class PlasticBucket extends Bucket {
         super();
         System.out.println("Running non-arg constructor PlasticBucket");
     }
+    @Override
+    public void storeWater() {
+        System.out.println("Storing water");
+    }
+    @Override
+    public void carry() {
+        System.out.println("Used for carrying liquid");
+    }
+    @Override
+    public void clean() {
+        System.out.println("Being cleaned");
+    }
 }

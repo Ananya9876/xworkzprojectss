@@ -5,14 +5,22 @@ import com.xworkz.inheritence.internal.drink.Juice;
 
 public class DrinkRunner {
     public static void main(String[] args) {
-        Drink drink = new Juice();
+
+        Drink drink = new Drink();
         drink.sip();
         drink.refresh();
         drink.cold();
         drink.sweet();
         drink.healthy();
+        System.out.println("**************************************");
+        Drink drink1 = new Juice();
+        drink1.sip();
+        drink1.refresh();
+        drink1.cold();
+        drink1.sweet();
+        drink1.healthy();
 
-        System.out.println("--------");
+        System.out.println("**************************************");
         Juice juice=new Juice();
         juice.sip();
         juice.refresh();

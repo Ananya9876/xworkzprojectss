@@ -5,12 +5,22 @@ import com.xworkz.inheritence.internal.play.Football;
 
 public class PlayRunner {
     public static void main(String[] args) {
-        Play sport = new Football();
+
+
+
+        Play sport = new Play();
         sport.play();
         sport.rules();
         sport.competition();
         sport.team();
         sport.training();
+        System.out.println("**************************************");
+        Play sports = new Football();
+        sports.play();
+        sports.rules();
+        sports.competition();
+        sports.team();
+        sports.training();
 
         System.out.println("-----------");
 

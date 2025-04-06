@@ -5,14 +5,26 @@ import com.xworkz.inheritence.internal.lungs.HealthyLungs;
 
 public class LungsRunner {
     public static void main(String[] args) {
-        Lungs lungs = new HealthyLungs();
+
+
+        Lungs lungs = new Lungs();
         lungs.pumpsBlood();
         lungs.beatsContinuously();
         lungs.suppliesOxygen();
         lungs.removesWaste();
         lungs.worksInCirculatorySystem();
 
-        System.out.println("-----------------");
+        System.out.println("**************************************");
+        Lungs lung = new HealthyLungs();
+        lung.pumpsBlood();
+        lung.beatsContinuously();
+        lung.suppliesOxygen();
+        lung.removesWaste();
+        lung.worksInCirculatorySystem();
+
+
+
+        System.out.println("**************************************");
         HealthyLungs healthyHeart = new HealthyLungs();
         healthyHeart.pumpsBlood();
         healthyHeart.beatsContinuously();

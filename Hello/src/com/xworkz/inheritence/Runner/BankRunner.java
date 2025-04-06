@@ -5,12 +5,23 @@ import com.xworkz.inheritence.internal.bank.HDFCBank;
 
 public class BankRunner {
     public static void main(String[] args) {
-        Bank bank = new HDFCBank();
+
+
+        Bank bank = new Bank();
         bank.deposit();
         bank.withdraw();
         bank.loan();
         bank.interest();
         bank.atm();
+
+        System.out.println("**************************************");
+
+        Bank bank1 = new HDFCBank();
+        bank1.deposit();
+        bank1.withdraw();
+        bank1.loan();
+        bank1.interest();
+        bank1.atm();
 
         System.out.println("**************************************");
         HDFCBank hdfcBank=new HDFCBank();
@@ -20,7 +31,7 @@ public class BankRunner {
         hdfcBank.interest();
         hdfcBank.atm();
 
-        System.out.println("**************************************");
+
 
     }
 }

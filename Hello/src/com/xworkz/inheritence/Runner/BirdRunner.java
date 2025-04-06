@@ -5,6 +5,15 @@ import com.xworkz.inheritence.internal.bird.Eagle;
 
 public class BirdRunner {
     public static void main(String[] args) {
+
+        Bird birds = new Bird();
+        birds.fly();
+        birds.feathers();
+        birds.laysEggs();
+        birds.sound();
+        birds.vision();
+        System.out.println("**************************************");
+
         Bird bird = new Eagle();
         bird.fly();
         bird.feathers();
@@ -12,7 +21,7 @@ public class BirdRunner {
         bird.sound();
         bird.vision();
 
-        System.out.println("-----------");
+        System.out.println("**************************************");
 
         Eagle eagle = new Eagle();
         eagle.fly();

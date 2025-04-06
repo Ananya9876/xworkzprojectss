@@ -5,6 +5,15 @@ import com.xworkz.inheritence.internal.academy.Harvard;
 
 public class AcademyRunner {
     public static void main(String[] args) {
+
+        Academy acc = new Academy();
+        acc.education();
+        acc.research();
+        acc.students();
+        acc.faculty();
+        acc.campus();
+        System.out.println("**************************************");
+
         Academy academy = new Harvard();
         academy.education();
         academy.research();
@@ -22,5 +31,7 @@ public class AcademyRunner {
         harvard.campus();
 
         System.out.println("**************************************");
+
+
     }
 }

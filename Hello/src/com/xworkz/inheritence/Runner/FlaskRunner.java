@@ -5,12 +5,20 @@ import com.xworkz.inheritence.internal.flask.Cap;
 
 public class FlaskRunner {
     public static void main(String[] args) {
-        Flask flask =new Cap();
+
+        Flask flask =new Flask();
         flask.fill();
         flask.frozen();
         flask.glass();
         flask.milk();
         flask.water();
+        System.out.println("**************************************");
+        Flask flask1 =new Cap();
+        flask1.fill();
+        flask1.frozen();
+        flask1.glass();
+        flask1.milk();
+        flask1.water();
 
         System.out.println("**************************************");
         Cap cap = new Cap();

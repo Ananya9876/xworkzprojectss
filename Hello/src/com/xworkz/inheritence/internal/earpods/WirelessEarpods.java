@@ -5,4 +5,16 @@ public class WirelessEarpods extends Earpods {
         super();
         System.out.println("Running non-arg constructor WirelessEarpods");
     }
+    @Override
+    public void playMusic() {
+        System.out.println("Playing music");
+    }
+    @Override
+    public void charge() {
+        System.out.println("Being charged");
+    }
+    @Override
+    public void connect() {
+        System.out.println("Connecting via Bluetooth");
+    }
 }

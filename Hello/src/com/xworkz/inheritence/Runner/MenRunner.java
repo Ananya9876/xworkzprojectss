@@ -5,14 +5,26 @@ import com.xworkz.inheritence.internal.men.Gentleman;
 
 public class MenRunner {
     public static void main(String[] args) {
-        Men men = new Gentleman();
+
+
+
+        Men men = new Men();
         men.work();
         men.takeResponsibility();
         men.dressWell();
         men.stayFit();
         men.socialize();
+        System.out.println("**************************************");
+        Men mens = new Gentleman();
+        mens.work();
+        mens.takeResponsibility();
+        mens.dressWell();
+        mens.stayFit();
+        mens.socialize();
 
-        System.out.println("-----------------");
+
+
+        System.out.println("**************************************");
         Gentleman gentleman = new Gentleman();
         gentleman.work();
         gentleman.takeResponsibility();

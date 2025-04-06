@@ -5,11 +5,18 @@ import com.xworkz.inheritence.internal.festival.Festival;
 
 public class FestivalRunner {
     public static void main(String[] args) {
-        Festival festival=new Diwali();
+
+        Festival festival=new Festival();
         festival.celebrate();
         festival.traditions();
         festival.holidays();
         festival.food();
+        System.out.println("**************************************");
+        Festival festival1 =new Diwali();
+        festival1.celebrate();
+        festival1.traditions();
+        festival1.holidays();
+        festival1.food();
 
         System.out.println("**************************************");
         Diwali diwali = new Diwali();

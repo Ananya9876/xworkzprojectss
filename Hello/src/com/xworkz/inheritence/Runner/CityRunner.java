@@ -5,14 +5,22 @@ import com.xworkz.inheritence.internal.city.NewYork;
 
 public class CityRunner {
     public static void main(String[] args) {
-        City city = new NewYork();
+
+        City city = new City();
         city.population();
         city.infrastructure();
         city.tourism();
         city.culture();
         city.economy();
+        System.out.println("**************************************");
+        City city1 = new NewYork();
+        city1.population();
+        city1.infrastructure();
+        city1.tourism();
+        city1.culture();
+        city1.economy();
 
-        System.out.println("-----------");
+        System.out.println("**************************************");
 
         NewYork newYork = new NewYork();
         newYork.population();

@@ -5,4 +5,24 @@ public class BarbieDoll extends Doll {
         super();
         System.out.println("Running non-arg constructor BarbieDoll");
     }
+    @Override
+    public void play() {
+        System.out.println("Playing");
+    }
+    @Override
+    public void dressUp() {
+        System.out.println("Dressed in different outfits");
+    }
+    @Override
+    public void talk() {
+        System.out.println("Some can talk");
+    }
+    @Override
+    public void move() {
+        System.out.println("Have moving parts");
+    }
+    @Override
+    public void collect() {
+        System.out.println("Often collected as a hobby");
+    }
 }

@@ -5,12 +5,20 @@ import com.xworkz.inheritence.internal.flora.Flower;
 
 public class FloraRunner {
     public static void main(String[] args) {
-        Flora flora = new Flower();
+
+        Flora flora = new Flora();
         flora.grow();
         flora.photosynthesis();
         flora.absorbWater();
         flora.provideOxygen();
         flora.reproduce();
+        System.out.println("**************************************");
+        Flora flora1 = new Flower();
+        flora1.grow();
+        flora1.photosynthesis();
+        flora1.absorbWater();
+        flora1.provideOxygen();
+        flora1.reproduce();
 
         System.out.println("**************************************");
 

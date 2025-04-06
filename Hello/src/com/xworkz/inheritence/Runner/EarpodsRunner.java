@@ -5,12 +5,19 @@ import com.xworkz.inheritence.internal.earpods.WirelessEarpods;
 
 public class EarpodsRunner {
     public static void main(String[] args) {
-        Earpods earpods = new WirelessEarpods();
+
+
+        Earpods earpods = new Earpods();
         earpods.playMusic();
         earpods.charge();
         earpods.connect();
+        System.out.println("**************************************");
+        Earpods earpods1 = new WirelessEarpods();
+        earpods1.playMusic();
+        earpods1.charge();
+        earpods1.connect();
 
-        System.out.println("-----------------");
+        System.out.println("**************************************");
         WirelessEarpods wirelessEarpods = new WirelessEarpods();
         wirelessEarpods.playMusic();
         wirelessEarpods.charge();

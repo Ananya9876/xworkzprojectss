@@ -5,11 +5,19 @@ import com.xworkz.inheritence.internal.utensil.Utensil;
 
 public class UtensilRunner {
     public static void main(String[] args) {
-        Utensil utensil =new Hammer();
+
+
+        Utensil utensil =new Utensil();
         utensil.use();
         utensil.material();
         utensil.grip();
         utensil.durability();
+        System.out.println("**************************************");
+        Utensil utensil1 =new Hammer();
+        utensil1.use();
+        utensil1.material();
+        utensil1.grip();
+        utensil1.durability();
 
         System.out.println("**************************************");
         Hammer hammer = new Hammer();

@@ -5,13 +5,23 @@ import com.xworkz.inheritence.internal.pen.BallPen;
 
 public class PenRunner {
     public static void main(String[] args) {
-        Pen pen = new BallPen();
+
+
+
+        Pen pen = new Pen();
         pen.write();
         pen.inkFlow();
         pen.cap();
         pen.refill();
+        System.out.println("**************************************");
+        Pen pens = new BallPen();
+        pens.write();
+        pens.inkFlow();
+        pens.cap();
+        pens.refill();
 
-        System.out.println("-----------------");
+
+        System.out.println("**************************************");
         BallPen ballPen = new BallPen();
         ballPen.write();
         ballPen.inkFlow();

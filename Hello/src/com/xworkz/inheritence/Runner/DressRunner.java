@@ -5,14 +5,22 @@ import com.xworkz.inheritence.internal.dress.PartyDress;
 
 public class DressRunner {
     public static void main(String[] args) {
-        Dress dress = new PartyDress();
+
+        Dress dress = new Dress();
         dress.wear();
         dress.comesInDifferentStyles();
         dress.availableForAllGenders();
         dress.providesComfort();
         dress.madeOfVariousMaterials();
+        System.out.println("**************************************");
+        Dress dresses = new PartyDress();
+        dresses.wear();
+        dresses.comesInDifferentStyles();
+        dresses.availableForAllGenders();
+        dresses.providesComfort();
+        dresses.madeOfVariousMaterials();
 
-        System.out.println("-----------------");
+        System.out.println("**************************************");
         PartyDress partyDress = new PartyDress();
         partyDress.wear();
         partyDress.comesInDifferentStyles();

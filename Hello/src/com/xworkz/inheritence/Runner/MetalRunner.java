@@ -5,14 +5,25 @@ import com.xworkz.inheritence.internal.metal.Gold;
 
 public class MetalRunner {
     public static void main(String[] args) {
-        Metal metal = new Gold();
+
+
+        Metal metal = new Metal();
         metal.conductivity();
         metal.durability();
         metal.malleability();
         metal.density();
         metal.corrosion();
+        System.out.println("**************************************");
+        Metal metals = new Gold();
+        metals.conductivity();
+        metals.durability();
+        metals.malleability();
+        metals.density();
+        metals.corrosion();
 
-        System.out.println("-----------");
+
+
+        System.out.println("**************************************");
 
         Gold gold = new Gold();
         gold.conductivity();

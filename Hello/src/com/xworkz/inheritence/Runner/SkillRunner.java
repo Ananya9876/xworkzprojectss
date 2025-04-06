@@ -5,12 +5,21 @@ import com.xworkz.inheritence.internal.skill.Java;
 
 public class SkillRunner {
     public static void main(String[] args) {
-        Skill lang = new Java();
+
+
+        Skill lang = new Skill();
         lang.speak();
         lang.write();
         lang.communicate();
         lang.grammar();
         lang.origin();
+        System.out.println("**************************************");
+        Skill lang1 = new Java();
+        lang1.speak();
+        lang1.write();
+        lang1.communicate();
+        lang1.grammar();
+        lang1.origin();
 
         System.out.println("**************************************");
         Java java=new Java();

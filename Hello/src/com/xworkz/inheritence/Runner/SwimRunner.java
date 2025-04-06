@@ -5,7 +5,7 @@ import com.xworkz.inheritence.internal.swim.FreestyleSwim;
 
 public class SwimRunner {
     public static void main(String[] args) {
-        Swim swim = new FreestyleSwim();
+        Swim swim = new Swim();
         swim.improvesHealth();
         swim.requiresWater();
         swim.isFullBodyExercise();

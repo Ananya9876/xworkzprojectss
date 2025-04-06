@@ -5,12 +5,22 @@ import com.xworkz.inheritence.internal.picture.DigitalPicture;
 
 public class PictureRunner {
     public static void main(String[] args) {
-        Picture picture = new DigitalPicture();
+
+
+
+        Picture picture = new Picture();
         picture.capture();
         picture.storeMemory();
         picture.printedOnPaper();
         picture.availableInDigitalFormat();
         picture.sharedOnSocialMedia();
+        System.out.println("**************************************");
+        Picture pictures = new DigitalPicture();
+        pictures.capture();
+        pictures.storeMemory();
+        pictures.printedOnPaper();
+        pictures.availableInDigitalFormat();
+        pictures.sharedOnSocialMedia();
 
         System.out.println("-----------------");
         DigitalPicture digitalPhoto = new DigitalPicture();

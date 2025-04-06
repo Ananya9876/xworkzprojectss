@@ -5,12 +5,20 @@ import com.xworkz.inheritence.internal.footwear.SportsFootwear;
 
 public class FootwearRunner {
     public static void main(String[] args) {
-        Footwear footwear = new SportsFootwear();
+
+        Footwear footwear = new Footwear();
         footwear.protectsFeet();
         footwear.providesComfort();
         footwear.comesInVariousStyles();
         footwear.madeFromDifferentMaterials();
         footwear.availableInDifferentSizes();
+        System.out.println("**************************************");
+        Footwear footwear1 = new SportsFootwear();
+        footwear1.protectsFeet();
+        footwear1.providesComfort();
+        footwear1.comesInVariousStyles();
+        footwear1.madeFromDifferentMaterials();
+        footwear1.availableInDifferentSizes();
 
         System.out.println("**************************************");
         SportsFootwear sportsShoe = new SportsFootwear();
