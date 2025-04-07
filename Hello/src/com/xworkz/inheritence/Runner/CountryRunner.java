@@ -1,7 +1,9 @@
 package com.xworkz.inheritence.Runner;
 
+import com.xworkz.inheritence.internal.color.Rainbow;
 import com.xworkz.inheritence.internal.country.Country;
 import com.xworkz.inheritence.internal.country.India;
+import com.xworkz.inheritence.internal.country.Nepal;
 
 public class CountryRunner {
     public static void main(String[] args) {
@@ -29,6 +31,10 @@ public class CountryRunner {
         india.economy();
         india.government();
 
-
+        System.out.println("************Casting example**************");
+        Nepal nepal=new Nepal();
+        nepal.nations(country);
+        nepal.nations(country1);
+        nepal.nations(india);
     }
 }

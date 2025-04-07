@@ -2,6 +2,7 @@ package com.xworkz.inheritence.Runner;
 
 import com.xworkz.inheritence.internal.goa.Goa;
 import com.xworkz.inheritence.internal.goa.NorthGoa;
+import com.xworkz.inheritence.internal.goa.SouthGoa;
 
 public class GoaRunner {
     public static void main(String[] args) {
@@ -27,5 +28,11 @@ public class GoaRunner {
         northGoa.exploreForts();
         northGoa.tasteSeafood();
         northGoa.relax();
+
+        System.out.println("************Casting example**************");
+        SouthGoa southGoa=new SouthGoa();
+        southGoa.nature(goa);
+        southGoa.nature(goan);
+        southGoa.nature(northGoa);
     }
 }

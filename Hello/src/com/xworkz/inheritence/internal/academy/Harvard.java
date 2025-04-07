@@ -29,4 +29,8 @@ public class Harvard extends Academy {
     public void campus() {
         System.out.println("Campus is in large area");
     }
+
+    public void activity(){
+        System.out.println("Activities are done");
+    }
 }

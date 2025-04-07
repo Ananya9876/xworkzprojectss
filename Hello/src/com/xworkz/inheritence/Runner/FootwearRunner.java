@@ -1,5 +1,6 @@
 package com.xworkz.inheritence.Runner;
 
+import com.xworkz.inheritence.internal.footwear.Collegefootware;
 import com.xworkz.inheritence.internal.footwear.Footwear;
 import com.xworkz.inheritence.internal.footwear.SportsFootwear;
 
@@ -28,6 +29,11 @@ public class FootwearRunner {
         sportsShoe.madeFromDifferentMaterials();
         sportsShoe.availableInDifferentSizes();
 
-        System.out.println("**************************************");
+        System.out.println("************Casting example**************");
+        Collegefootware collegefootware=new Collegefootware();
+        collegefootware.footweartypes(footwear);
+        collegefootware.footweartypes(footwear1);
+        collegefootware.footweartypes(sportsShoe);
+
     }
 }

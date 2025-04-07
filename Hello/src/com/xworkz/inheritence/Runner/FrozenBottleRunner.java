@@ -2,6 +2,7 @@ package com.xworkz.inheritence.Runner;
 
 import com.xworkz.inheritence.internal.frozenBottle.FrozenBottle;
 import com.xworkz.inheritence.internal.frozenBottle.IceBottle;
+import com.xworkz.inheritence.internal.frozenBottle.WaterBottle;
 
 public class FrozenBottleRunner {
     public static void main(String[] args) {
@@ -28,6 +29,11 @@ public class FrozenBottleRunner {
         iceBottle.meltSlowly();
         iceBottle.carryAnywhere();
 
-        System.out.println("**************************************");
+        System.out.println("************Casting example**************");
+        WaterBottle waterBottle=new WaterBottle();
+        waterBottle.numberofbottles(bottle);
+        waterBottle.numberofbottles(bottle2);
+        waterBottle.numberofbottles(iceBottle);
+
     }
 }

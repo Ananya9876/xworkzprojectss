@@ -25,4 +25,7 @@ public class Rose extends Flower {
     public void pollination() {
         System.out.println("Helps in pollination");
     }
+    public void petels(){
+        System.out.println("The flowers will have petels of different pettles");
+    }
 }

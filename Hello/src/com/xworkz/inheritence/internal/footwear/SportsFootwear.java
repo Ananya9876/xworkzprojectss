@@ -25,4 +25,7 @@ public class SportsFootwear extends Footwear {
     public void availableInDifferentSizes() {
         System.out.println("Are available in various sizes");
     }
+    public void usage(){
+        System.out.println("USed for any place and anywhere");
+    }
 }

@@ -21,4 +21,7 @@ public class FlipFlop extends Chapple {
     public void comfort() {
         System.out.println("Provides comfort");
     }
+    public void jump(){
+        System.out.println("Used for jumping");
+    }
 }

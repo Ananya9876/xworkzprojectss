@@ -2,6 +2,7 @@ package com.xworkz.inheritence.Runner;
 
 import com.xworkz.inheritence.internal.cur.Currency;
 import com.xworkz.inheritence.internal.cur.Dollar;
+import com.xworkz.inheritence.internal.cur.Rupee;
 
 public class CurrRunner {
     public static void main(String[] args) {
@@ -24,5 +25,11 @@ public class CurrRunner {
         dollar.exchangeRate();
         dollar.symbol();
         dollar.usage();
+
+        System.out.println("************Casting example**************");
+        Rupee rupee=new Rupee();
+        rupee.checkCurrency(currency);
+        rupee.checkCurrency(currency1);
+        rupee.checkCurrency(dollar);
     }
 }

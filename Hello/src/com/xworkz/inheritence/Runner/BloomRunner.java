@@ -1,6 +1,7 @@
 package com.xworkz.inheritence.Runner;
 
 import com.xworkz.inheritence.internal.bloom.Bloom;
+import com.xworkz.inheritence.internal.bloom.Flowers;
 import com.xworkz.inheritence.internal.bloom.RedBloom;
 
 public class BloomRunner {
@@ -29,5 +30,11 @@ public class BloomRunner {
         redRose.usedForDecoration();
         redRose.hasThorns();
         redRose.symbolizesLove();
+
+        System.out.println("************Casting example**************");
+        Flowers flowers=new Flowers();
+        flowers.process(bloom);
+        flowers.process(blooms);
+        flowers.process(redRose);
     }
 }

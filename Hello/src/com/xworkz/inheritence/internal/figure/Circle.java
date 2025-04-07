@@ -25,4 +25,7 @@ public class Circle extends Figure {
     public void dimension() {
         System.out.println("Have dimensions");
     }
+    public void length(){
+        System.out.println("This will have length and bredth");
+    }
 }

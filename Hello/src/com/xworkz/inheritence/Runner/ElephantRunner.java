@@ -2,6 +2,7 @@ package com.xworkz.inheritence.Runner;
 
 import com.xworkz.inheritence.internal.elephant.Elephant;
 import com.xworkz.inheritence.internal.elephant.AfricanElephant;
+import com.xworkz.inheritence.internal.elephant.Indianelephant;
 
 public class ElephantRunner {
     public static void main(String[] args) {
@@ -27,5 +28,11 @@ public class ElephantRunner {
         africanElephant.trumpet();
         africanElephant.useTrunk();
         africanElephant.walkSlowly();
+
+        System.out.println("************Casting example**************");
+        Indianelephant indianelephant=new Indianelephant();
+        indianelephant.observe(elephant);
+        indianelephant.observe(elephant1);
+        indianelephant.observe(africanElephant);
     }
 }

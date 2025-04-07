@@ -17,4 +17,7 @@ public class PlasticBucket extends Bucket {
     public void clean() {
         System.out.println("Being cleaned");
     }
+    public void use(){
+        System.out.println("Usage of bucket is good");
+    }
 }

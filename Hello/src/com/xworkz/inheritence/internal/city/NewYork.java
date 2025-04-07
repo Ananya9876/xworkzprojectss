@@ -25,4 +25,7 @@ public class NewYork extends City {
     public void economy() {
         System.out.println("Has an economy");
     }
+    public void area(){
+        System.out.println("Area is very vast");
+    }
 }

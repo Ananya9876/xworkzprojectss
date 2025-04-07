@@ -1,5 +1,6 @@
 package com.xworkz.inheritence.Runner;
 
+import com.xworkz.inheritence.internal.construction.Building;
 import com.xworkz.inheritence.internal.construction.Construction;
 import com.xworkz.inheritence.internal.construction.House;
 
@@ -24,5 +25,11 @@ public class ConstructionRunner {
         house.structure();
         house.floors();
         house.foundation();
+
+        System.out.println("************Casting example**************");
+        Building building=new Building();
+        building.builder(construction);
+        building.builder(construction1);
+        building.builder(house);
     }
 }

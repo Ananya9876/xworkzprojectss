@@ -25,4 +25,7 @@ public class ElectricButton extends Button {
     public void usedInHomes() {
         System.out.println("Used in homes");
     }
+    public void tvremote(){
+        System.out.println("Its use as the tv remote");
+    }
 }

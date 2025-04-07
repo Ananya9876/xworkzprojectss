@@ -25,4 +25,7 @@ public class BookCover extends Cover {
     public void enhanceLook() {
         System.out.println("The look of the item");
     }
+    public void materials(){
+        System.out.println("Paper cover is used");
+    }
 }

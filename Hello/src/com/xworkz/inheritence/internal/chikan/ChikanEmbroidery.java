@@ -25,4 +25,7 @@ public class ChikanEmbroidery extends Chikan {
     public void usedOnFabrics() {
         System.out.println("Used on fabrics like cotton, silk, and muslin");
     }
+    public void embroiderywork(){
+        System.out.println("Embroidery work");
+    }
 }

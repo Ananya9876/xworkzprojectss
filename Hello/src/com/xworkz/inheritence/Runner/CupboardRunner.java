@@ -2,6 +2,7 @@ package com.xworkz.inheritence.Runner;
 
 import com.xworkz.inheritence.internal.cupboard.Cupboard;
 import com.xworkz.inheritence.internal.cupboard.Door;
+import com.xworkz.inheritence.internal.cupboard.Shelf;
 
 public class CupboardRunner {
     public static void main(String[] args) {
@@ -28,6 +29,11 @@ public class CupboardRunner {
         door.open();
         door.lock();
 
+        System.out.println("************Casting example**************");
+        Shelf shelf=new Shelf();
+        shelf.checkDoor(cupboard);
+        shelf.checkDoor(cupboard1);
+        shelf.checkDoor(door);
     }
 
 }

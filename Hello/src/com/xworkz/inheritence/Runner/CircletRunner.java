@@ -1,6 +1,7 @@
 package com.xworkz.inheritence.Runner;
 
 import com.xworkz.inheritence.internal.circlet.Circlet;
+import com.xworkz.inheritence.internal.circlet.Jewelary;
 import com.xworkz.inheritence.internal.circlet.Type;
 
 public class CircletRunner {
@@ -28,6 +29,11 @@ public class CircletRunner {
         type.matel();
         type.quality();
 
+        System.out.println("************Casting example**************");
+        Jewelary jewelary=new Jewelary();
+        jewelary.checkCirclet(circlet);
+        jewelary.checkCirclet(circlet1);
+        jewelary.checkCirclet(type);
     }
     }
 

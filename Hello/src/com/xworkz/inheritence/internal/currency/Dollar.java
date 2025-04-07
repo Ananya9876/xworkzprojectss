@@ -21,4 +21,7 @@ public class Dollar extends Currency {
     public void usedForTrade() {
         System.out.println("Used for trade");
     }
+    public void exchange(){
+        System.out.println("Exchange of rupees to dollers");
+    }
 }

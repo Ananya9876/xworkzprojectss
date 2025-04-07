@@ -2,6 +2,7 @@ package com.xworkz.inheritence.Runner;
 
 import com.xworkz.inheritence.internal.flora.Flora;
 import com.xworkz.inheritence.internal.flora.Flower;
+import com.xworkz.inheritence.internal.flora.Sunflower;
 
 public class FloraRunner {
     public static void main(String[] args) {
@@ -29,6 +30,10 @@ public class FloraRunner {
         flower.provideOxygen();
         flower.reproduce();
 
-        System.out.println("**************************************");
+        System.out.println("************Casting example**************");
+        Sunflower sunflower=new Sunflower();
+        sunflower.florachecker(flora);
+        sunflower.florachecker(flora1);
+        sunflower.florachecker(flower);
     }
 }

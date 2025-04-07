@@ -26,4 +26,7 @@ public class Asia extends Continent {
     public void climate() {
         System.out.println("Different climates");
     }
+    public void language(){
+        System.out.println("English language is spoken");
+    }
 }

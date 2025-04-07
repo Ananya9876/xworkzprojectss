@@ -21,4 +21,7 @@ public class House extends Construction {
     public void foundation() {
         System.out.println("Has a foundation");
     }
+    public void rooms(){
+        System.out.println("There are 4-5 rooms");
+    }
 }

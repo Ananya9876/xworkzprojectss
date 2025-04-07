@@ -25,4 +25,7 @@ public class GoldFish extends Fish {
     public void laysEggs() {
         System.out.println("They lay eggs to reproduce");
     }
+    public void color(){
+        System.out.println("Fishes are of different colors");
+    }
 }

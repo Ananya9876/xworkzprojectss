@@ -25,4 +25,7 @@ public class BirthdayGathering extends Gathering {
     public void decorateVenue() {
         System.out.println("Involve venue decoration");
     }
+    public void food(){
+        System.out.println("There will be varieties of food");
+    }
 }

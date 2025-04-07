@@ -25,4 +25,7 @@ public class SportsBike extends Bike {
     public void comesInDifferentModels() {
         System.out.println("Come in different models");
     }
+    public void fastfastly() {
+        System.out.println("It will runs fastly");
+    }
 }

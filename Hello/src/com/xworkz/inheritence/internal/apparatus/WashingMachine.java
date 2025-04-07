@@ -1,5 +1,7 @@
 package com.xworkz.inheritence.internal.apparatus;
 
+import java.sql.SQLOutput;
+
 public class WashingMachine extends Apparatus {
     public WashingMachine() {
         super();
@@ -28,5 +30,9 @@ public class WashingMachine extends Apparatus {
     public void brand() {
 
         System.out.println("Have a brand");
+    }
+
+    public void usage(){
+        System.out.println("Usage is good and in different forms");
     }
 }

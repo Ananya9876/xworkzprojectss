@@ -2,6 +2,7 @@ package com.xworkz.inheritence.Runner;
 
 import com.xworkz.inheritence.internal.church.Church;
 import com.xworkz.inheritence.internal.church.CatholicChurch;
+import com.xworkz.inheritence.internal.church.Protestedchurch;
 
 public class ChurchRunner {
     public static void main(String[] args) {
@@ -26,5 +27,11 @@ public class ChurchRunner {
         catholicChurch.lightCandles();
         catholicChurch.singHymns();
         catholicChurch.readBible();
+
+        System.out.println("************Casting example**************");
+        Protestedchurch protestedchurch=new Protestedchurch();
+        protestedchurch.blessing(church);
+        protestedchurch.blessing(church1);
+        protestedchurch.blessing(catholicChurch);
     }
 }

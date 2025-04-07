@@ -2,6 +2,7 @@ package com.xworkz.inheritence.Runner;
 
 import com.xworkz.inheritence.internal.doll.Doll;
 import com.xworkz.inheritence.internal.doll.BarbieDoll;
+import com.xworkz.inheritence.internal.doll.Doremon;
 
 public class DollRunner {
     public static void main(String[] args) {
@@ -27,6 +28,11 @@ public class DollRunner {
         barbieDoll.talk();
         barbieDoll.move();
         barbieDoll.collect();
-        System.out.println("**************************************");
+
+        System.out.println("************Casting example**************");
+        Doremon doremon=new Doremon();
+        doremon.dollbox(doll);
+        doremon.dollbox(doll1);
+        doremon.dollbox(barbieDoll);
     }
 }

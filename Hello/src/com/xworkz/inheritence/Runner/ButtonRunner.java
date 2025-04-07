@@ -2,6 +2,7 @@ package com.xworkz.inheritence.Runner;
 
 import com.xworkz.inheritence.internal.button.ElectricButton;
 import com.xworkz.inheritence.internal.button.Button;
+import com.xworkz.inheritence.internal.button.Keys;
 
 public class ButtonRunner {
     public static void main(String[] args) {
@@ -27,5 +28,11 @@ public class ButtonRunner {
         electricSwitch.saveElectricity();
         electricSwitch.availableInVariousDesigns();
         electricSwitch.usedInHomes();
+
+        System.out.println("************Casting example**************");
+        Keys keys=new Keys();
+        keys.press(sw);
+        keys.press(sw1);
+        keys.press(electricSwitch);
     }
 }

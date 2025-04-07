@@ -1,5 +1,6 @@
 package com.xworkz.inheritence.Runner;
 
+import com.xworkz.inheritence.internal.bucket.Box;
 import com.xworkz.inheritence.internal.bucket.Bucket;
 import com.xworkz.inheritence.internal.bucket.PlasticBucket;
 
@@ -22,5 +23,11 @@ public class BucketRunner {
         plasticBucket.storeWater();
         plasticBucket.carry();
         plasticBucket.clean();
+
+        System.out.println("************Casting example**************");
+        Box box=new Box();
+        box.pour(bucket);
+        box.pour(bucket1);
+        box.pour(plasticBucket);
     }
 }

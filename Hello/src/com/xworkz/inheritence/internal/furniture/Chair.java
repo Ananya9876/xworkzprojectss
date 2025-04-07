@@ -25,4 +25,7 @@ public class Chair extends Furniture {
     public void design() {
         System.out.println("Has different designs");
     }
+    public void shaping(){
+        System.out.println("Shape is of rectangular");
+    }
 }

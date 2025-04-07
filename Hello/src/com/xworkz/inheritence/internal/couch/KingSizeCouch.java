@@ -25,4 +25,7 @@ public class KingSizeCouch extends Couch {
     public void adjustHeight() {
         System.out.println("Have adjustable height");
     }
+    public void hygine(){
+        System.out.println("Hygine is maintained in the couch");
+    }
 }

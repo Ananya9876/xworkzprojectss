@@ -2,6 +2,7 @@ package com.xworkz.inheritence.Runner;
 
 import com.xworkz.inheritence.internal.gathering.Gathering;
 import com.xworkz.inheritence.internal.gathering.BirthdayGathering;
+import com.xworkz.inheritence.internal.gathering.Wedding;
 
 public class GatheringRunner {
     public static void main(String[] args) {
@@ -28,5 +29,12 @@ public class GatheringRunner {
         birthdayParty.playMusic();
         birthdayParty.dance();
         birthdayParty.decorateVenue();
+
+        System.out.println("************Casting example**************");
+        Wedding wedding=new Wedding();
+        wedding.venue(gathering);
+        wedding.venue(gathering1);
+        wedding.venue(birthdayParty);
+
     }
 }

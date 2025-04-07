@@ -21,4 +21,7 @@ public class Red extends Color {
     public void fade() {
         System.out.println("Fading over time");
     }
+    public void shape(){
+        System.out.println("Shape is semicircle");
+    }
 }

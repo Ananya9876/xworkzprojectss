@@ -25,4 +25,7 @@ public class Door extends Cupboard {
     public void close(){
         System.out.println("closed");
     }
+    public void color(){
+        System.out.println("Has the color black");
+    }
 }

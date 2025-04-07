@@ -1,6 +1,7 @@
 package com.xworkz.inheritence.Runner;
 
 import com.xworkz.inheritence.internal.armlet.Armlet;
+import com.xworkz.inheritence.internal.armlet.Chain;
 import com.xworkz.inheritence.internal.armlet.GoldArmlet;
 
 public class ArmletRunner {
@@ -30,5 +31,11 @@ public class ArmletRunner {
         goldBangles.availableInVariousDesigns();
         goldBangles.symbolizeMaritalStatus();
 
+
+        System.out.println("************Casting example***************");
+        Chain chain=new Chain();
+        chain.wrap(armlet);
+        chain.wrap(arm);
+        chain.wrap(goldBangles);
     }
 }

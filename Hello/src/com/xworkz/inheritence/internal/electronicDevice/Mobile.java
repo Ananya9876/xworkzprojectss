@@ -22,6 +22,9 @@ public class Mobile extends ElectronicDevice{
     public void charge() {
         System.out.println("Is charging");
     }
+    public void fetures(){
+        System.out.println("There are many features in the mobile");
+    }
     }
 
 

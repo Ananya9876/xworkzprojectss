@@ -25,4 +25,7 @@ public class SilkFormal extends Formal {
     public void pairedWithPajama() {
         System.out.println("Paired with pajama or jeans");
     }
+    public void materials(){
+        System.out.println("This will have cotton and silk cloths");
+    }
 }

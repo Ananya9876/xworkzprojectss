@@ -2,6 +2,7 @@ package com.xworkz.inheritence.Runner;
 
 import com.xworkz.inheritence.internal.automobile.Automobile;
 import com.xworkz.inheritence.internal.automobile.Car;
+import com.xworkz.inheritence.internal.automobile.Wheel;
 
 public class AutomobileRunner {
     public static void main(String[] args) {
@@ -31,6 +32,11 @@ public class AutomobileRunner {
         car.transport();
 
         System.out.println("**************************************");
+
+        Wheel wheel=new Wheel();
+        wheel.run(automobile);
+        wheel.run(auto);
+        wheel.run(car);
 
     }
 }

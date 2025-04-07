@@ -25,4 +25,7 @@ public class India extends Country {
     public void government() {
         System.out.println("Government of India");
     }
+    public void area(){
+        System.out.println("Acres of areas are used");
+    }
 }

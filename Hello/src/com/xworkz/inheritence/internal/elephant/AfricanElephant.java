@@ -25,4 +25,7 @@ public class AfricanElephant extends Elephant {
     public void walkSlowly() {
         System.out.println("Walks slowly but steadily");
     }
+    public void colors(){
+        System.out.println("Elephant are of different colors like black and gray");
+    }
 }

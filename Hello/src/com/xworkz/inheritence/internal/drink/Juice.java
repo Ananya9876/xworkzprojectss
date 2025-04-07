@@ -25,4 +25,7 @@ public class Juice extends Drink {
     public void healthy() {
         System.out.println("Is healthy");
     }
+    public void taste(){
+        System.out.println("Taste is sour and sweet");
+    }
 }

@@ -21,4 +21,8 @@ public class Bedroom extends Area {
     public void ventilate() {
         System.out.println("Ventilated area");
     }
+
+    public void design(){
+        System.out.println("Designing of the room");
+    }
 }

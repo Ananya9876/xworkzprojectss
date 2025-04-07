@@ -2,6 +2,7 @@ package com.xworkz.inheritence.Runner;
 
 import com.xworkz.inheritence.internal.bank.Bank;
 import com.xworkz.inheritence.internal.bank.HDFCBank;
+import com.xworkz.inheritence.internal.bank.Loan;
 
 public class BankRunner {
     public static void main(String[] args) {
@@ -31,7 +32,10 @@ public class BankRunner {
         hdfcBank.interest();
         hdfcBank.atm();
 
-
-
+        System.out.println("************Casting example**************");
+        Loan loan=new Loan();
+        loan.provideLoan(bank);
+        loan.provideLoan(bank1);
+        loan.provideLoan(hdfcBank);
     }
 }

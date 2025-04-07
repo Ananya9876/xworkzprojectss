@@ -25,4 +25,7 @@ public class InstagramReels extends Instagram {
     public void likePosts() {
         System.out.println("Liking posts");
     }
+    public void photos(){
+        System.out.println("Posts are liked");
+    }
 }

@@ -2,6 +2,7 @@ package com.xworkz.inheritence.Runner;
 
 import com.xworkz.inheritence.internal.electronicDevice.ElectronicDevice;
 import com.xworkz.inheritence.internal.electronicDevice.Mobile;
+import com.xworkz.inheritence.internal.electronicDevice.Shelldevice;
 
 public class ElectronicsRunner {
 
@@ -26,6 +27,12 @@ public class ElectronicsRunner {
             mobile.powerOff();
             mobile.battery();
             mobile.charge();
+
+            System.out.println("************Casting example**************");
+            Shelldevice shelldevice=new Shelldevice();
+            shelldevice.checkDevice(device);
+            shelldevice.checkDevice(device2);
+            shelldevice.checkDevice(mobile);
         }
     }
 

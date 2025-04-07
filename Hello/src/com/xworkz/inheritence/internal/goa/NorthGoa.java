@@ -25,4 +25,7 @@ public class NorthGoa extends Goa {
     public void relax() {
         System.out.println("Peaceful environment");
     }
+    public void temples(){
+        System.out.println("In south Goa there are temples");
+    }
 }

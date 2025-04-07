@@ -25,4 +25,7 @@ public class TShirt extends Clothing {
     public void design() {
         System.out.println("Have designs");
     }
+    public void color(){
+        System.out.println("Different colors of the shirt");
+    }
 }

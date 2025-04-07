@@ -22,4 +22,7 @@ public class Diwali extends Festival {
     public void food() {
         System.out.println("Have special food items");
     }
+    public void culture(){
+        System.out.println("In one one states there are different cultures");
+    }
 }

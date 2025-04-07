@@ -2,6 +2,7 @@ package com.xworkz.inheritence.Runner;
 
 import com.xworkz.inheritence.internal.fish.Fish;
 import com.xworkz.inheritence.internal.fish.GoldFish;
+import com.xworkz.inheritence.internal.fish.Starfish;
 
 public class FishRunner {
     public static void main(String[] args) {
@@ -28,6 +29,10 @@ public class FishRunner {
         goldFish.comesInDifferentSpecies();
         goldFish.laysEggs();
 
-        System.out.println("**************************************");
+        System.out.println("************Casting example**************");
+        Starfish starfish=new Starfish();
+        starfish.fishType(fish);
+        starfish.fishType(fish1);
+        starfish.fishType(goldFish);
     }
 }

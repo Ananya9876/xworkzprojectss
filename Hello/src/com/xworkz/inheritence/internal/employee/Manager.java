@@ -25,4 +25,7 @@ public class Manager extends Employee {
     public void department() {
         System.out.println("Belongs to a department");
     }
+    public void timings(){
+        System.out.println("The workers work from day to night");
+    }
 }

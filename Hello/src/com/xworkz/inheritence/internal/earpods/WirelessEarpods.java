@@ -17,4 +17,7 @@ public class WirelessEarpods extends Earpods {
     public void connect() {
         System.out.println("Connecting via Bluetooth");
     }
+    public void wireless(){
+        System.out.println("There are wireless pods like blootooth");
+    }
 }

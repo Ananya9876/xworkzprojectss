@@ -1,6 +1,7 @@
 package com.xworkz.inheritence.Runner;
 
 import com.xworkz.inheritence.internal.flower.Flower;
+import com.xworkz.inheritence.internal.flower.Lotus;
 import com.xworkz.inheritence.internal.flower.Rose;
 
 public class FlowerRunner {
@@ -29,6 +30,11 @@ public class FlowerRunner {
         rose.petals();
         rose.pollination();
 
-        System.out.println("**************************************");
+        System.out.println("************Casting example**************");
+        Lotus lotus=new Lotus();
+        lotus.variety(flower);
+        lotus.variety(flower1);
+        lotus.variety(rose);
+
     }
 }

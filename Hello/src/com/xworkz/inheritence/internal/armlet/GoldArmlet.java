@@ -25,4 +25,7 @@ public class GoldArmlet extends Armlet {
     public void symbolizeMaritalStatus() {
         System.out.println("Armlet symbolize marital status");
     }
+    public void shine() {
+        System.out.println("Gold Armlet shines brightly");
+    }
 }

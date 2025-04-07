@@ -1,5 +1,7 @@
 package com.xworkz.inheritence.internal.bird;
 
+import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
+
 public class Eagle extends Bird {
     public Eagle() {
         super();
@@ -24,5 +26,8 @@ public class Eagle extends Bird {
     @Override
     public void vision() {
         System.out.println("Have sharp vision");
+    }
+    public void neck(){
+        System.out.println("Neck of the bird");
     }
 }

@@ -2,6 +2,7 @@ package com.xworkz.inheritence.Runner;
 
 import com.xworkz.inheritence.internal.chapple.Chapple;
 import com.xworkz.inheritence.internal.chapple.FlipFlop;
+import com.xworkz.inheritence.internal.chapple.Foot;
 
 public class ChappleRunner {
     public static void main(String[] args) {
@@ -25,5 +26,11 @@ public class ChappleRunner {
         flipFlop.walk();
         flipFlop.grip();
         flipFlop.comfort();
+
+        System.out.println("************Casting example**************");
+        Foot foot=new Foot();
+        foot.wearing(chapple);
+        foot.wearing(chapple1);
+        foot.wearing(flipFlop);
     }
 }

@@ -25,4 +25,7 @@ public class BarbieDoll extends Doll {
     public void collect() {
         System.out.println("Often collected as a hobby");
     }
+    public void walking(){
+        System.out.println("Walking of the doll");
+    }
 }

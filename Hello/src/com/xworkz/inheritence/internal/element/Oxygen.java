@@ -25,4 +25,7 @@ public class Oxygen extends Element {
     public void reactivity() {
         System.out.println("Chemical reactivity");
     }
+    public void table(){
+        System.out.println("The periodic table of the elements");
+    }
 }

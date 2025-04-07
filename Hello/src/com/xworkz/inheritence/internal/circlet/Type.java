@@ -25,4 +25,7 @@ public class Type extends Circlet {
     public void quality(){
         System.out.println(" quality of Circlet");
     }
+    public void material(){
+        System.out.println("Material is good");
+    }
 }

@@ -27,4 +27,8 @@ public class Wire extends Charger{
     public void phone(){
         System.out.println("Charger for laptop,phone");
     }
+
+    public void screen(){
+        System.out.println("Screening of the phone");
+    }
 }

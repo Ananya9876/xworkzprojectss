@@ -25,4 +25,7 @@ public class CatholicChurch extends Church {
     public void readBible() {
         System.out.println("Reading the Bible");
     }
+    public void fast(){
+        System.out.println("Fasting before prayers");
+    }
 }

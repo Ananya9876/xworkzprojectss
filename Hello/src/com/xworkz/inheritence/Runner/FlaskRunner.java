@@ -1,5 +1,6 @@
 package com.xworkz.inheritence.Runner;
 
+import com.xworkz.inheritence.internal.flask.Boxcap;
 import com.xworkz.inheritence.internal.flask.Flask;
 import com.xworkz.inheritence.internal.flask.Cap;
 
@@ -28,7 +29,11 @@ public class FlaskRunner {
         cap.milk();
         cap.water();
 
-        System.out.println("**************************************");
+        System.out.println("************Casting example**************");
+        Boxcap boxcap=new Boxcap();
+        boxcap.flasktype(flask);
+        boxcap.flasktype(flask1);
+        boxcap.flasktype(cap);
 
     }
 }

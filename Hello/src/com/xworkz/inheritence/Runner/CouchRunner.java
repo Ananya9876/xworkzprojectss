@@ -1,5 +1,6 @@
 package com.xworkz.inheritence.Runner;
 
+import com.xworkz.inheritence.internal.couch.Businesscouch;
 import com.xworkz.inheritence.internal.couch.Couch;
 import com.xworkz.inheritence.internal.couch.KingSizeCouch;
 
@@ -27,5 +28,11 @@ public class CouchRunner {
         kingSizeBed.comfort();
         kingSizeBed.decorate();
         kingSizeBed.adjustHeight();
+
+        System.out.println("************Casting example**************");
+        Businesscouch businesscouch=new Businesscouch();
+        businesscouch.arrange(couch);
+        businesscouch.arrange(couch1);
+        businesscouch.arrange(kingSizeBed);
     }
 }

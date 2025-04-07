@@ -2,6 +2,7 @@ package com.xworkz.inheritence.Runner;
 
 import com.xworkz.inheritence.internal.hair.Hair;
 import com.xworkz.inheritence.internal.hair.CurlyHair;
+import com.xworkz.inheritence.internal.hair.StraightHair;
 
 public class HairRunner {
     public static void main(String[] args) {
@@ -28,5 +29,11 @@ public class HairRunner {
         curlyHair.canBeStyled();
         curlyHair.requiresMaintenance();
         curlyHair.madeOfKeratin();
+
+        System.out.println("************Casting example**************");
+        StraightHair straightHair=new StraightHair();
+        straightHair.hairtype(hair);
+        straightHair.hairtype(hairs);
+        straightHair.hairtype(curlyHair);
     }
 }

@@ -1,6 +1,7 @@
 package com.xworkz.inheritence.Runner;
 
 import com.xworkz.inheritence.internal.apparatus.Apparatus;
+import com.xworkz.inheritence.internal.apparatus.Equipment;
 import com.xworkz.inheritence.internal.apparatus.WashingMachine;
 
 public class ApplianceRunner {
@@ -30,6 +31,12 @@ public class ApplianceRunner {
         washingMachine.consumeElectricity();
         washingMachine.function();
         washingMachine.brand();
+
+        System.out.println("*************Casting example*****************");
+        Equipment equipment=new Equipment();
+        equipment.source(apar);
+        equipment.source(apparatus);
+        equipment.source(washingMachine);
 
     }
 }

@@ -25,4 +25,7 @@ public class Flower extends Flora {
     public void reproduce() {
         System.out.println("Plant Reproduce");
     }
+    public void season(){
+        System.out.println("Grown in sunny seasons");
+    }
 }

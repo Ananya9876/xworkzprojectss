@@ -25,4 +25,7 @@ public class PartyDress extends Dress {
     public void madeOfVariousMaterials() {
         System.out.println("Made of materials");
     }
+    public void colorofsuites(){
+        System.out.println("Suits are ofdifferent colors");
+    }
 }

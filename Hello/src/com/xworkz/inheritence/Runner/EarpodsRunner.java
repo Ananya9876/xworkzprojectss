@@ -1,5 +1,6 @@
 package com.xworkz.inheritence.Runner;
 
+import com.xworkz.inheritence.internal.earpods.Blootooth;
 import com.xworkz.inheritence.internal.earpods.Earpods;
 import com.xworkz.inheritence.internal.earpods.WirelessEarpods;
 
@@ -22,5 +23,11 @@ public class EarpodsRunner {
         wirelessEarpods.playMusic();
         wirelessEarpods.charge();
         wirelessEarpods.connect();
+
+        System.out.println("************Casting example**************");
+        Blootooth blootooth=new Blootooth();
+        blootooth.test(earpods);
+        blootooth.test(earpods1);
+        blootooth.test(wirelessEarpods);
     }
 }

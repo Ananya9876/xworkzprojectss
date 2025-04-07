@@ -1,6 +1,7 @@
 package com.xworkz.inheritence.Runner;
 
 import com.xworkz.inheritence.internal.element.Element;
+import com.xworkz.inheritence.internal.element.Hydrogen;
 import com.xworkz.inheritence.internal.element.Oxygen;
 
 public class ElementRunner {
@@ -27,5 +28,11 @@ public class ElementRunner {
         oxygen.state();
         oxygen.bonding();
         oxygen.reactivity();
+
+        System.out.println("************Casting example**************");
+        Hydrogen hydrogen=new Hydrogen();
+        hydrogen.examine(element);
+        hydrogen.examine(element1);
+        hydrogen.examine(oxygen);
     }
 }

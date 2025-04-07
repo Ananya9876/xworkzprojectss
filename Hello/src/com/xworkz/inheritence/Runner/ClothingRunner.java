@@ -1,6 +1,7 @@
 package com.xworkz.inheritence.Runner;
 
 import com.xworkz.inheritence.internal.clothing.Clothing;
+import com.xworkz.inheritence.internal.clothing.Design;
 import com.xworkz.inheritence.internal.clothing.TShirt;
 
 public class ClothingRunner {
@@ -28,5 +29,12 @@ public class ClothingRunner {
         tShirt.size();
         tShirt.brand();
         tShirt.design();
+
+        System.out.println("************Casting example**************");
+        Design design=new Design();
+        design.display(clothing);
+        design.display(clothing1);
+        design.display(tShirt);
+
     }
 }

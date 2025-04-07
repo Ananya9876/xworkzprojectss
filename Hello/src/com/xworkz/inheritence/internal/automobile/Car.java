@@ -25,4 +25,8 @@ public class Car extends Automobile {
     public void transport() {
         System.out.println("Used for transport");
     }
+
+    public void distance(){
+        System.out.println("Distance is covered very fastly");
+    }
 }

@@ -21,4 +21,7 @@ public class Apple extends Fruit {
     public void seasonal() {
         System.out.println("Are seasonal");
     }
+    public void protien(){
+        System.out.println("It will provide vitamins and protiens");
+    }
 }

@@ -25,4 +25,7 @@ public class IceBottle extends FrozenBottle {
     public void carryAnywhere() {
         System.out.println("Portable and useful in summers");
     }
+    public void coldbottle(){
+        System.out.println("This will contain cold liquids");
+    }
 }

@@ -25,4 +25,7 @@ public class Cap extends Flask {
     public void frozen(){
         System.out.println("frozen bottle");
     }
+    public void shape(){
+        System.out.println("The cap will be of circular");
+    }
 }

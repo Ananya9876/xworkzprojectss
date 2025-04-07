@@ -1,6 +1,7 @@
 package com.xworkz.inheritence.Runner;
 
 import com.xworkz.inheritence.internal.charger.Charger;
+import com.xworkz.inheritence.internal.charger.Point;
 import com.xworkz.inheritence.internal.charger.Wire;
 
 public class ChargerRunner {
@@ -28,6 +29,11 @@ public class ChargerRunner {
         wire.small();
         wire.white();
 
+        System.out.println("************Casting example**************");
+        Point point=new Point();
+        point.switchs(charger);
+        point.switchs(charger1);
+        point.switchs(wire);
     }
 
 }

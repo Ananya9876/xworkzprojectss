@@ -25,4 +25,8 @@ public class RedBloom extends Bloom {
     public void symbolizesLove() {
         System.out.println("Symbol of love and affection");
     }
+
+    public  void leaf(){
+        System.out.println("Leaf of the rose plant");
+    }
 }

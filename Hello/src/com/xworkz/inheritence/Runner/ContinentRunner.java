@@ -2,6 +2,8 @@ package com.xworkz.inheritence.Runner;
 
 import com.xworkz.inheritence.internal.continent.Continent;
 import com.xworkz.inheritence.internal.continent.Asia;
+import com.xworkz.inheritence.internal.continent.Eurpoe;
+import com.xworkz.inheritence.internal.couch.Businesscouch;
 
 public class ContinentRunner {
     public static void main(String[] args) {
@@ -29,5 +31,11 @@ public class ContinentRunner {
         asia.culture();
         asia.economy();
         asia.climate();
+
+        System.out.println("************Casting example**************");
+        Eurpoe eurpoe=new Eurpoe();
+        eurpoe.map(continent);
+        eurpoe.map(continent1);
+        eurpoe.map(asia);
     }
 }

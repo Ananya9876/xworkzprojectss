@@ -1,6 +1,7 @@
 package com.xworkz.inheritence.Runner;
 
 import com.xworkz.inheritence.internal.bike.Bike;
+import com.xworkz.inheritence.internal.bike.Ride;
 import com.xworkz.inheritence.internal.bike.SportsBike;
 
 public class BikeRunner {
@@ -29,6 +30,10 @@ public class BikeRunner {
         sportsBike.requiresHelmet();
         sportsBike.comesInDifferentModels();
 
-        System.out.println("**************************************");
+        System.out.println("************Casting example**************");
+        Ride ride=new Ride();
+        ride.approve(bike);
+        ride.approve(bike1);
+        ride.approve(sportsBike);
     }
 }

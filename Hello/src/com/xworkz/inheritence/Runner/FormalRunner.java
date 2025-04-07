@@ -1,5 +1,6 @@
 package com.xworkz.inheritence.Runner;
 
+import com.xworkz.inheritence.internal.formal.Cottonformal;
 import com.xworkz.inheritence.internal.formal.Formal;
 import com.xworkz.inheritence.internal.formal.SilkFormal;
 
@@ -29,6 +30,10 @@ public class FormalRunner {
         silkKurta.comesInVariousDesigns();
         silkKurta.pairedWithPajama();
 
-        System.out.println("**************************************");
+        System.out.println("************Casting example**************");
+        Cottonformal cottonformal=new Cottonformal();
+        cottonformal.dressing(formal);
+        cottonformal.dressing(formal1);
+        cottonformal.dressing(silkKurta);
     }
 }

@@ -25,4 +25,7 @@ public class CurlyHair extends Hair {
     public void madeOfKeratin() {
         System.out.println("Made of keratin protein");
     }
+    public void conditioner(){
+        System.out.println("Using conditioner hairs will become straight");
+    }
 }

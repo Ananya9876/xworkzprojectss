@@ -2,6 +2,7 @@ package com.xworkz.inheritence.Runner;
 
 import com.xworkz.inheritence.internal.chikan.Chikan;
 import com.xworkz.inheritence.internal.chikan.ChikanEmbroidery;
+import com.xworkz.inheritence.internal.chikan.Cloth;
 
 public class ChikanRunner {
     public static void main(String[] args) {
@@ -27,5 +28,13 @@ public class ChikanRunner {
         chikanEmbroidery.originatedInLucknow();
         chikanEmbroidery.delicateDesigns();
         chikanEmbroidery.usedOnFabrics();
+
+        System.out.println("************Casting example**************");
+        Cloth cloth=new Cloth();
+        cloth.applyEmbroidery(chikan);
+        cloth.applyEmbroidery(chikan1);
+        cloth.applyEmbroidery(chikanEmbroidery);
+
+
     }
 }

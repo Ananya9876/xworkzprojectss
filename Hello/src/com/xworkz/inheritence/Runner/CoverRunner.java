@@ -2,6 +2,7 @@ package com.xworkz.inheritence.Runner;
 
 import com.xworkz.inheritence.internal.cover.Cover;
 import com.xworkz.inheritence.internal.cover.BookCover;
+import com.xworkz.inheritence.internal.cover.Papercover;
 
 public class CoverRunner {
     public static void main(String[] args) {
@@ -27,5 +28,13 @@ public class CoverRunner {
         bookCover.provideGrip();
         bookCover.waterproof();
         bookCover.enhanceLook();
+
+
+        System.out.println("************Casting example**************");
+        Papercover papercover=new Papercover();
+        papercover.wrapCover(cover);
+        papercover.wrapCover(cover1);
+        papercover.wrapCover(bookCover);
+
     }
 }

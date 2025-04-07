@@ -2,6 +2,7 @@ package com.xworkz.inheritence.Runner;
 
 import com.xworkz.inheritence.internal.academy.Academy;
 import com.xworkz.inheritence.internal.academy.Harvard;
+import com.xworkz.inheritence.internal.academy.Institute;
 
 public class AcademyRunner {
     public static void main(String[] args) {
@@ -30,8 +31,11 @@ public class AcademyRunner {
         harvard.faculty();
         harvard.campus();
 
-        System.out.println("**************************************");
-
+        System.out.println("************Casting****************");
+        Institute institute=new Institute();
+        institute.device(acc);
+        institute.device(academy);
+        institute.device(harvard);
 
     }
 }
