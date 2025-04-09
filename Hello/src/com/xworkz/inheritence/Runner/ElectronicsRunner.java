@@ -7,8 +7,6 @@ import com.xworkz.inheritence.internal.electronicDevice.Shelldevice;
 public class ElectronicsRunner {
 
         public static void main(String[] args) {
-
-
             ElectronicDevice device=new ElectronicDevice();
             device.powerOn();
             device.powerOff();
