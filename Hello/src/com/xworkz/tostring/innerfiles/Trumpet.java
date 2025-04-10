@@ -15,4 +15,8 @@ public class Trumpet {
     public String toString() {
         return "Trumpet [flexibility=" + flexibility + ", brightness=" + brightness + ", density=" + density + "]";
     }
+    @Override
+    public int hashCode(){
+        return 9637;
+    }
 }

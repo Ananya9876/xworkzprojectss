@@ -15,4 +15,9 @@ public class Thermos {
     public String toString() {
         return "Thermos [speed=" + speed + ", volume=" + volume + ", shape=" + shape + "]";
     }
+
+    @Override
+    public int hashCode(){
+        return 98537;
+    }
 }

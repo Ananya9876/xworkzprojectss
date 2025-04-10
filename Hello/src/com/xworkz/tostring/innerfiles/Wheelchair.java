@@ -15,4 +15,9 @@ public class Wheelchair {
     public String toString() {
         return "Wheelchair [speed=" + speed + ", size=" + size + ", width=" + width + "]";
     }
+    @Override
+    public int hashCode(){
+        return 867;
+    }
 }
+

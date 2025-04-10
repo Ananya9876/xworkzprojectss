@@ -15,4 +15,8 @@ public class Nail {
     public String toString() {
         return "Nail [width=" + width + ", intensity=" + intensity + ", power=" + power + "]";
     }
+    @Override
+    public int hashCode(){
+        return 52;
+    }
 }

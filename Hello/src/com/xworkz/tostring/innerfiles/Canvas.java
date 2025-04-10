@@ -15,4 +15,8 @@ public class Canvas {
     public String toString() {
         return "Canvas [range=" + range + ", material=" + material + ", flexibility=" + flexibility + "]";
     }
+    @Override
+    public int hashCode(){
+        return 4997;
+    }
 }

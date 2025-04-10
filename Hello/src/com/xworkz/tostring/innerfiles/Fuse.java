@@ -15,4 +15,8 @@ public class Fuse {
     public String toString() {
         return "Fuse [thickness=" + thickness + ", color=" + color + ", brightness=" + brightness + "]";
     }
+    @Override
+    public int hashCode(){
+        return 267;
+    }
 }

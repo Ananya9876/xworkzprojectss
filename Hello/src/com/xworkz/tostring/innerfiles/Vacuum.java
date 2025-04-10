@@ -15,4 +15,8 @@ public class Vacuum {
     public String toString() {
         return "Vacuum [width=" + width + ", duration=" + duration + ", capacity=" + capacity + "]";
     }
+    @Override
+    public int hashCode(){
+        return 8967;
+    }
 }

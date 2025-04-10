@@ -15,4 +15,8 @@ public class Clipboard {
     public String toString() {
         return "Clipboard [density=" + density + ", shape=" + shape + ", range=" + range + "]";
     }
+    @Override
+    public int hashCode(){
+        return 33397;
+    }
 }

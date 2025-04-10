@@ -15,4 +15,8 @@ public class Violin {
     public String toString() {
         return "Violin [density=" + density + ", intensity=" + intensity + ", shape=" + shape + "]";
     }
+    @Override
+    public int hashCode(){
+        return 9567;
+    }
 }

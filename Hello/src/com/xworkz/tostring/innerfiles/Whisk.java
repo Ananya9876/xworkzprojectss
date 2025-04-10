@@ -15,4 +15,8 @@ public class Whisk {
     public String toString() {
         return "Whisk [intensity=" + intensity + ", power=" + power + ", duration=" + duration + "]";
     }
+    @Override
+    public int hashCode(){
+        return 6887;
+    }
 }

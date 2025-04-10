@@ -15,4 +15,8 @@ public class Folder {
     public String toString() {
         return "Folder [height=" + height + ", volume=" + volume + ", weight=" + weight + "]";
     }
+    @Override
+    public int hashCode(){
+        return 3021;
+    }
 }

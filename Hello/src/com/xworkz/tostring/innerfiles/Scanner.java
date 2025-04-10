@@ -15,4 +15,8 @@ public class Scanner {
     public String toString() {
         return "Scanner [brightness=" + brightness + ", power=" + power + ", thickness=" + thickness + "]";
     }
+    @Override
+    public int hashCode(){
+        return 5990;
+    }
 }

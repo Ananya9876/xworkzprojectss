@@ -15,4 +15,8 @@ public class Router {
     public String toString() {
         return "Router [intensity=" + intensity + ", power=" + power + ", duration=" + duration + "]";
     }
+    @Override
+    public int hashCode(){
+        return 8933;
+    }
 }

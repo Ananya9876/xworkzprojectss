@@ -15,4 +15,8 @@ public class Apron {
     public String toString() {
         return "Apron : shape=" + shape + ", texture=" + texture + ", volume=" + volume ;
     }
+    @Override
+    public int hashCode(){
+        return 270;
+    }
 }

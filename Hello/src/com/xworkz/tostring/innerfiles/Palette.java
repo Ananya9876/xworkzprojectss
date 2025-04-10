@@ -15,4 +15,8 @@ public class Palette {
     public String toString() {
         return "Palette [speed=" + speed + ", width=" + width + ", volume=" + volume + "]";
     }
+    @Override
+    public int hashCode(){
+        return 410;
+    }
 }

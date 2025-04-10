@@ -15,4 +15,8 @@ public class Antenna {
     public String toString() {
         return "Antenna : size=" + size + ", flexibility=" + flexibility + ", shape=" + shape ;
     }
+    @Override
+    public int hashCode(){
+        return 97;
+    }
 }

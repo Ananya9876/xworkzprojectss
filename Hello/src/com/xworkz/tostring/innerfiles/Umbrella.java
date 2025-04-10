@@ -15,4 +15,8 @@ public class Umbrella {
     public String toString() {
         return "Umbrella [height=" + height + ", duration=" + duration + ", size=" + size + "]";
     }
+    @Override
+    public int hashCode(){
+        return 9757;
+    }
 }

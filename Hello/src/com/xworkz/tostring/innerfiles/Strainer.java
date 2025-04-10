@@ -15,4 +15,8 @@ public class Strainer {
     public String toString() {
         return "Strainer [thickness=" + thickness + ", material=" + material + ", capacity=" + capacity + "]";
     }
+    @Override
+    public int hashCode(){
+        return 60507;
+    }
 }

@@ -15,4 +15,8 @@ public class Piano {
     public String toString() {
         return "Piano [duration=" + duration + ", capacity=" + capacity + ", texture=" + texture + "]";
     }
+    @Override
+    public int hashCode(){
+        return 7801;
+    }
 }

@@ -15,4 +15,8 @@ public class Flute {
     public String toString() {
         return "Flute [brightness=" + brightness + ", height=" + height + ", width=" + width + "]";
     }
+    @Override
+    public int hashCode(){
+        return 307;
+    }
 }

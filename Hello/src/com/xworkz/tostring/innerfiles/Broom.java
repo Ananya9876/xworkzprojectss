@@ -15,4 +15,8 @@ public class Broom {
     public String toString() {
         return "Broom: color=" + color + ", density=" + density + ", shape=" + shape ;
     }
+    @Override
+    public int hashCode(){
+        return 600;
+    }
 }

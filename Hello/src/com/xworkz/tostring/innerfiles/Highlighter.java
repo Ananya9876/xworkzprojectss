@@ -15,4 +15,8 @@ public class Highlighter {
     public String toString() {
         return "Highlighter [width=" + width + ", color=" + color + ", intensity=" + intensity + "]";
     }
+    @Override
+    public int hashCode(){
+        return 3026;
+    }
 }

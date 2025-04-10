@@ -15,4 +15,8 @@ public class Cello {
     public String toString() {
         return "Cello [texture=" + texture + ", speed=" + speed + ", thickness=" + thickness + "]";
     }
+    @Override
+    public int hashCode(){
+        return 4897;
+    }
 }

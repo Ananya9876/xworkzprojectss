@@ -15,4 +15,8 @@ public class Receiver {
     public String toString() {
         return "Receiver [power=" + power + ", height=" + height + ", weight=" + weight + "]";
     }
+    @Override
+    public int hashCode(){
+        return 3021;
+    }
 }

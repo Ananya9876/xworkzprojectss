@@ -15,4 +15,8 @@ public class Ladder {
     public String toString() {
         return "Ladder [color=" + color + ", flexibility=" + flexibility + ", shape=" + shape + "]";
     }
+    @Override
+    public int hashCode(){
+        return 30;
+    }
 }

@@ -15,4 +15,8 @@ public class Sprinkler {
     public String toString() {
         return "Sprinkler [shape=" + shape + ", shape=" + color + ", intensity=" + intensity + "]";
     }
+    @Override
+    public int hashCode(){
+        return 15202;
+    }
 }

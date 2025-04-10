@@ -15,4 +15,8 @@ public class MarkerPen {
     public String toString() {
         return "MarkerPen [color=" + color + ", brightness=" + brightness + ", duration=" + duration + "]";
     }
+    @Override
+    public int hashCode(){
+        return 40;
+    }
 }

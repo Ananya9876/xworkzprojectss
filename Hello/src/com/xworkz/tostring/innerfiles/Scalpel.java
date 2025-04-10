@@ -15,4 +15,8 @@ public class Scalpel {
     public String toString() {
         return "Scalpel [weight=" + weight + ", weight=" + color + ", speed=" + speed + "]";
     }
+    @Override
+    public int hashCode(){
+        return 98751;
+    }
 }

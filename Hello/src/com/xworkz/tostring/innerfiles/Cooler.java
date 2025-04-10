@@ -15,4 +15,8 @@ public class Cooler {
     public String toString() {
         return "Cooler [material=" + material + ", weight=" + weight + ", power=" + power + "]";
     }
+    @Override
+    public int hashCode(){
+        return 45897;
+    }
 }

@@ -15,4 +15,8 @@ public class Database {
     public String toString() {
         return "Database [material=" + material + ", duration=" + duration + ", material=" + quantity + "]";
     }
+    @Override
+    public int hashCode(){
+        return 6897;
+    }
 }

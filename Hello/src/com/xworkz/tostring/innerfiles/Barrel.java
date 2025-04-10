@@ -15,4 +15,8 @@ public class Barrel {
     public String toString() {
         return "Barrel: weight=" + weight + ", power=" + power + ", capacity=" + capacity ;
     }
+    @Override
+    public int hashCode(){
+        return 790;
+    }
 }

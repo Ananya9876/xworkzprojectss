@@ -15,4 +15,8 @@ public class Modem {
     public String toString() {
         return "Modem [power=" + power + ", size=" + size + ", width=" + width + "]";
     }
+    @Override
+    public int hashCode(){
+        return 101;
+    }
 }

@@ -15,4 +15,8 @@ public class Hammer {
     public String toString() {
         return "Hammer [material=" + material + ", material=" + shape + ", weight=" + weight + "]";
     }
+    @Override
+    public int hashCode(){
+        return 10;
+    }
 }

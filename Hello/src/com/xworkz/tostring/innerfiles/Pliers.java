@@ -15,4 +15,8 @@ public class Pliers {
     public String toString() {
         return "Pliers [speed=" + speed + ", flexibility=" + flexibility + ", power=" + power + "]";
     }
+    @Override
+    public int hashCode(){
+        return 802;
+    }
 }

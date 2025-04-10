@@ -15,4 +15,8 @@ public class Bucket {
     public String toString() {
         return "Bucket: size=" + size + ", duration=" + duration + ", volume=" + volume;
     }
+    @Override
+    public int hashCode(){
+        return 790;
+    }
 }

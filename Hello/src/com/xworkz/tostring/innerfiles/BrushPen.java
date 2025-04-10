@@ -15,4 +15,8 @@ public class BrushPen {
     public String toString() {
         return "BrushPen: flexibility=" + flexibility + ", height=" + height + ", speed=" + speed ;
     }
+    @Override
+    public int hashCode(){
+        return 89;
+    }
 }

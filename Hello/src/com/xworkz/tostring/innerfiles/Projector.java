@@ -15,4 +15,8 @@ public class Projector {
     public String toString() {
         return "Projector [thickness=" + thickness + ", density=" + density + ", range=" + range + "]";
     }
+    @Override
+    public int hashCode(){
+        return 102;
+    }
 }

@@ -15,4 +15,8 @@ public class Harmonica {
     public String toString() {
         return "Harmonica [texture=" + texture + ", capacity=" + capacity + ", thickness=" + thickness + "]";
     }
+    @Override
+    public int hashCode(){
+        return 60;
+    }
 }

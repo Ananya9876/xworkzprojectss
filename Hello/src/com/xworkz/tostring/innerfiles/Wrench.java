@@ -15,4 +15,8 @@ public class Wrench {
     public String toString() {
         return "Wrench [intensity=" + intensity + ", intensity=" + brand + ", duration=" + duration + "]";
     }
+    @Override
+    public int hashCode(){
+        return 87897;
+    }
 }

@@ -15,4 +15,8 @@ public class Sunglasses {
     public String toString() {
         return "Sunglasses [capacity=" + capacity + ", brightness=" + brightness + ", density=" + density + "]";
     }
+    @Override
+    public int hashCode(){
+        return 8907;
+    }
 }

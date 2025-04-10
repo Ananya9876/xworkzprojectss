@@ -15,4 +15,8 @@ public class Paper {
     public String toString() {
         return "Paper [size=" + size + ", shape=" + shape + ", range=" + range + "]";
     }
+    @Override
+    public int hashCode(){
+        return 2036;
+    }
 }

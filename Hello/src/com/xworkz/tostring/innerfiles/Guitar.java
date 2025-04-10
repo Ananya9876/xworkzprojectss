@@ -15,4 +15,8 @@ public class Guitar {
     public String toString() {
         return "Guitar [height=" + height + ", density=" + density + ", brightness=" + brightness + "]";
     }
+    @Override
+    public int hashCode(){
+        return 7398;
+    }
 }

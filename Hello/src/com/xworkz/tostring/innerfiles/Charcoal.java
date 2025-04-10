@@ -15,4 +15,8 @@ public class Charcoal {
     public String toString() {
         return "Charcoal [intensity=" + intensity + ", texture=" + texture + ", material=" + material + "]";
     }
+    @Override
+    public int hashCode(){
+        return 6997;
+    }
 }

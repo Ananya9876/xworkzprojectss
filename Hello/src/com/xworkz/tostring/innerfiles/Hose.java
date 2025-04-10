@@ -15,4 +15,8 @@ public class Hose {
     public String toString() {
         return "Hose [power=" + power + ", capacity=" + capacity + ", range=" + range + "]";
     }
+    @Override
+    public int hashCode(){
+        return 301;
+    }
 }

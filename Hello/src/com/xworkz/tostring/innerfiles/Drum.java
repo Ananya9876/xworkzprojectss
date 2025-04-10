@@ -15,4 +15,8 @@ public class Drum {
     public String toString() {
         return "Drum [weight=" + weight + ", capacity=" + capacity + ", thickness=" + thickness + "]";
     }
+    @Override
+    public int hashCode(){
+        return 30020;
+    }
 }

@@ -15,4 +15,8 @@ public class Transmitter {
     public String toString() {
         return "Transmitter [volume=" + volume + ", texture=" + texture + ", color=" + color + "]";
     }
+    @Override
+    public int hashCode(){
+        return 63667;
+    }
 }

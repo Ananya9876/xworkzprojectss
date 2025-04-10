@@ -15,4 +15,8 @@ public class Drill {
     public String toString() {
         return "Drill [material=" + material + ", intensity=" + intensity + ", brightness=" + brightness + "]";
     }
+    @Override
+    public int hashCode(){
+        return 9597;
+    }
 }

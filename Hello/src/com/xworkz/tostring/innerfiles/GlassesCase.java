@@ -15,4 +15,8 @@ public class GlassesCase {
     public String toString() {
         return "GlassesCase [range=" + range + ", intensity=" + intensity + ", size=" + size + "]";
     }
+    @Override
+    public int hashCode(){
+        return 98710;
+    }
 }

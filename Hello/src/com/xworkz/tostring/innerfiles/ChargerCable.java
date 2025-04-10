@@ -15,4 +15,8 @@ public class ChargerCable {
     public String toString() {
         return "ChargerCable [capacity=" + capacity + ", flexibility=" + flexibility + ", intensity=" + intensity + "]";
     }
+    @Override
+    public int hashCode(){
+        return 2397;
+    }
 }

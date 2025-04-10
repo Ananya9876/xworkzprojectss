@@ -15,4 +15,8 @@ public class Document {
     public String toString() {
         return "Document [weight=" + weight + ", capacity=" + capacity + ", size=" + size + "]";
     }
+    @Override
+    public int hashCode(){
+        return 7797;
+    }
 }

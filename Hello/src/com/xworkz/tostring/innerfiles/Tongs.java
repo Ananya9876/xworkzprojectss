@@ -15,4 +15,8 @@ public class Tongs {
     public String toString() {
         return "Tongs [weight=" + weight + ", flexibility=" + flexibility + ", power=" + power + "]";
     }
+    @Override
+    public int hashCode(){
+        return 9999;
+    }
 }

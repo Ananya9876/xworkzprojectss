@@ -15,4 +15,8 @@ public class Raincoat {
     public String toString() {
         return "Raincoat [size=" + size + ", speed=" + speed + ", flexibility=" + flexibility + "]";
     }
+    @Override
+    public int hashCode(){
+        return 102;
+    }
 }

@@ -15,4 +15,8 @@ public class Sketchpad {
     public String toString() {
         return "Sketchpad [material=" + material + ", size=" + size + ", weight=" + weight + "]";
     }
+    @Override
+    public int hashCode(){
+        return 3698745;
+    }
 }

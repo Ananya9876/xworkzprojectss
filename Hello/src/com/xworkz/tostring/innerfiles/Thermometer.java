@@ -15,4 +15,8 @@ public class Thermometer {
     public String toString() {
         return "Thermometer [power=" + power + ", texture=" + texture + ", height=" + height + "]";
     }
+    @Override
+    public int hashCode(){
+        return 368;
+    }
 }

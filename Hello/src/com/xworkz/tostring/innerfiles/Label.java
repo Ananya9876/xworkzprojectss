@@ -15,4 +15,8 @@ public class Label {
     public String toString() {
         return "Label [power=" + power + ", speed=" + speed + ", flexibility=" + flexibility + "]";
     }
+    @Override
+    public int hashCode(){
+        return 410;
+    }
 }

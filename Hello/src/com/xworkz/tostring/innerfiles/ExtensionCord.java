@@ -15,4 +15,8 @@ public class ExtensionCord {
     public String toString() {
         return "ExtensionCord [height=" + height + ", thickness=" + thickness + ", density=" + density + "]";
     }
+    @Override
+    public int hashCode(){
+        return 90020;
+    }
 }

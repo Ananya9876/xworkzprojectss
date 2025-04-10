@@ -15,4 +15,8 @@ public class Pump {
     public String toString() {
         return "Pump [texture=" + texture + ", height=" + height + ", capacity=" + capacity + "]";
     }
+    @Override
+    public int hashCode(){
+        return 89902;
+    }
 }

@@ -15,4 +15,8 @@ public class Telescope {
     public String toString() {
         return "Telescope [width=" + width + ", material=" + material + ", intensity=" + intensity + "]";
     }
+    @Override
+    public int hashCode(){
+        return 7785;
+    }
 }

@@ -15,4 +15,8 @@ public class Plug {
     public String toString() {
         return "Plug [brightness=" + brightness + ", density=" + density + ", flexibility=" + flexibility + "]";
     }
+    @Override
+    public int hashCode(){
+        return 9023;
+    }
 }

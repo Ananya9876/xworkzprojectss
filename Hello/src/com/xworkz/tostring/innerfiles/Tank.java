@@ -15,4 +15,9 @@ public class Tank {
     public String toString() {
         return "Tank [height=" + height + ", texture=" + texture + ", speed=" + speed + "]";
     }
+
+    @Override
+    public int hashCode(){
+        return 7547;
+    }
 }

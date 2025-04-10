@@ -15,4 +15,8 @@ public class Detergent {
     public String toString() {
         return "Detergent [capacity=" + capacity + ", brightness=" + brightness + ", flexibility=" + flexibility + "]";
     }
+    @Override
+    public int hashCode(){
+        return 4597;
+    }
 }

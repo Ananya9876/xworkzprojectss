@@ -15,4 +15,8 @@ public class Outlet {
     public String toString() {
         return "Outlet [volume=" + volume + ", speed=" + speed + ", speed=" + flexibility + "]";
     }
+    @Override
+    public int hashCode(){
+        return 1010;
+    }
 }

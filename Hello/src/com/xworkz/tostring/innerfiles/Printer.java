@@ -15,4 +15,8 @@ public class Printer {
     public String toString() {
         return "Printer [width=" + width + ", material=" + material + ", weight=" + weight + "]";
     }
+    @Override
+    public int hashCode(){
+        return 20036;
+    }
 }

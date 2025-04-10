@@ -15,4 +15,8 @@ public class Crutch {
     public String toString() {
         return "Crutch [weight=" + weight + ", density=" + density + ", material=" + material + "]";
     }
+    @Override
+    public int hashCode(){
+        return 35897;
+    }
 }

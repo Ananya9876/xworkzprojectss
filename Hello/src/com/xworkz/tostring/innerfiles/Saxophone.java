@@ -15,4 +15,9 @@ public class Saxophone {
     public String toString() {
         return "Saxophone [color=" + color + ", color=" + brand + ", shape=" + shape + "]";
     }
+
+    @Override
+    public int hashCode(){
+        return 67890;
+    }
 }

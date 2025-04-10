@@ -15,4 +15,8 @@ public class Mop {
     public String toString() {
         return "Mop [brightness=" + brightness + ", thickness=" + thickness + ", volume=" + volume + "]";
     }
+    @Override
+    public int hashCode(){
+        return 01;
+    }
 }

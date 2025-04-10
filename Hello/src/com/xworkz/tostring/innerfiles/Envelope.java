@@ -15,4 +15,8 @@ public class Envelope {
     public String toString() {
         return "Envelope [speed=" + speed + ", intensity=" + intensity + ", thickness=" + thickness + "]";
     }
+    @Override
+    public int hashCode(){
+        return 801023;
+    }
 }

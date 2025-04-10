@@ -15,4 +15,8 @@ public class Lunchbox {
     public String toString() {
         return "Lunchbox [shape=" + shape + ", material=" + material + ", material=" + quantity + "]";
     }
+    @Override
+    public int hashCode(){
+        return 10023;
+    }
 }

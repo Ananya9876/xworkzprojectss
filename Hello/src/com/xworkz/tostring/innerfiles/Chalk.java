@@ -15,4 +15,8 @@ public class Chalk {
     public String toString() {
         return "Chalk [power=" + power + ", size=" + size + ", power=" + density + "]";
     }
+    @Override
+    public int hashCode(){
+        return 897;
+    }
 }

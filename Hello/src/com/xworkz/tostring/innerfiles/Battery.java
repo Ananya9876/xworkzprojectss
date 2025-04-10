@@ -15,4 +15,8 @@ public class Battery {
     public String toString() {
         return "Battery: flexibility=" + flexibility + ", power=" + power + ", texture=" + texture ;
     }
+    @Override
+    public int hashCode(){
+        return 800;
+    }
 }

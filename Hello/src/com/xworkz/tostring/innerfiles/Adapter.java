@@ -10,9 +10,12 @@ public class Adapter {
         this.color = color;
         this.size = size;
     }
-
     @Override
     public String toString() {
         return "Adapter has :range= " + range + ", color= " + color + ", size= " + size ;
+    }
+    @Override
+    public int hashCode(){
+        return 99;
     }
 }

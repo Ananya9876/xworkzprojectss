@@ -15,4 +15,8 @@ public class Bolt {
     public String toString() {
         return "Bolt: height=" + height + ", texture=" + texture + ", speed=" + speed;
     }
+    @Override
+    public int hashCode(){
+        return 450;
+    }
 }

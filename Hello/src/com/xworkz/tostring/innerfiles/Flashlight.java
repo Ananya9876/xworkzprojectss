@@ -15,4 +15,8 @@ public class Flashlight {
     public String toString() {
         return "Flashlight [weight=" + weight + ", intensity=" + intensity + ", density=" + density + "]";
     }
+    @Override
+    public int hashCode(){
+        return 107;
+    }
 }

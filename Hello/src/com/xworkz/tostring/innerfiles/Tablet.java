@@ -15,4 +15,8 @@ public class Tablet {
     public String toString() {
         return "Tablet [color=" + price + ", color=" + color + ", weight=" + weight + "]";
     }
+    @Override
+    public int hashCode(){
+        return 895667;
+    }
 }

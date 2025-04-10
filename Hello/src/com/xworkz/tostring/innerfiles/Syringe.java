@@ -15,4 +15,8 @@ public class Syringe {
     public String toString() {
         return "Syringe [shape=" + shape + ", width=" + width + ", range=" + range + "]";
     }
+    @Override
+    public int hashCode(){
+        return 6567;
+    }
 }

@@ -15,4 +15,8 @@ public class Easel {
     public String toString() {
         return "Easel [volume=" + volume + ", color=" + color + ", size=" + size + "]";
     }
+    @Override
+    public int hashCode(){
+        return 90103;
+    }
 }

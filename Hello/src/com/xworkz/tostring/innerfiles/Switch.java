@@ -15,4 +15,8 @@ public class Switch {
     public String toString() {
         return "Switch [color=" + color + ", volume=" + volume + ", thickness=" + thickness + "]";
     }
+    @Override
+    public int hashCode(){
+        return 7567;
+    }
 }

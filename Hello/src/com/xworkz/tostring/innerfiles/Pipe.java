@@ -15,4 +15,8 @@ public class Pipe {
     public String toString() {
         return "Pipe [range=" + range + ", power=" + power + ", size=" + size + "]";
     }
+    @Override
+    public int hashCode(){
+        return 2003;
+    }
 }

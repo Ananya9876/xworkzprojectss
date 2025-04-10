@@ -15,4 +15,8 @@ public class Disinfectant {
     public String toString() {
         return "Disinfectant [capacity=" + capacity + ", width=" + width + ", intensity=" + intensity + "]";
     }
+    @Override
+    public int hashCode(){
+        return 6897;
+    }
 }

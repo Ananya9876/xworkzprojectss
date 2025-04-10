@@ -15,4 +15,8 @@ public class Robot {
     public String toString() {
         return "Robot [width=" + width + ", flexibility=" + flexibility + ", range=" + range + "]";
     }
+    @Override
+    public int hashCode(){
+        return 450;
+    }
 }

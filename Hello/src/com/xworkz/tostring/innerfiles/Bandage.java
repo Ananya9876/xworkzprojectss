@@ -15,4 +15,8 @@ public class Bandage {
     public String toString() {
         return "Bandage: flexibility=" + flexibility + ", shape=" + shape + ", weight=" + weight ;
     }
+    @Override
+    public int hashCode(){
+        return 497;
+    }
 }

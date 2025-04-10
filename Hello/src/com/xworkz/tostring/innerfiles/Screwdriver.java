@@ -15,4 +15,8 @@ public class Screwdriver {
     public String toString() {
         return "Screwdriver [size=" + size + ", weight=" + weight + ", capacity=" + capacity + "]";
     }
+    @Override
+    public int hashCode(){
+        return 69820;
+    }
 }

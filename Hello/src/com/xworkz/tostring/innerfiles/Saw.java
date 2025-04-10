@@ -15,4 +15,9 @@ public class Saw {
     public String toString() {
         return "Saw [size=" + size + ", range=" + range + ", range=" + distance + "]";
     }
+
+    @Override
+    public int hashCode(){
+        return 638;
+    }
 }

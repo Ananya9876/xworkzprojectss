@@ -15,4 +15,8 @@ public class Bleach {
     public String toString() {
         return "Bleach: color=" + color + ", flexibility=" + flexibility + ", thickness=" + thickness ;
     }
+    @Override
+    public int hashCode(){
+        return 1870;
+    }
 }

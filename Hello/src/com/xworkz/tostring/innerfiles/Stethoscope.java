@@ -15,4 +15,8 @@ public class Stethoscope {
     public String toString() {
         return "Stethoscope [color=" + color + ", flexibility=" + flexibility + ", shape=" + shape + "]";
     }
+    @Override
+    public int hashCode(){
+        return 90030;
+    }
 }

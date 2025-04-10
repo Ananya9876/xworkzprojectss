@@ -15,4 +15,8 @@ public class Dustpan {
     public String toString() {
         return "Dustpan [volume=" + volume + ", density=" + density + ", size=" + size + "]";
     }
+    @Override
+    public int hashCode(){
+        return 75903;
+    }
 }

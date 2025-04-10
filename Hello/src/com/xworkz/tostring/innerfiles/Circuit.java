@@ -15,4 +15,8 @@ public class Circuit {
     public String toString() {
         return "Circuit [thickness=" + thickness + ", width=" + width + ", capacity=" + capacity + "]";
     }
+    @Override
+    public int hashCode(){
+        return 12397;
+    }
 }

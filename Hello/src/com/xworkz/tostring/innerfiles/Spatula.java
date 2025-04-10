@@ -15,4 +15,8 @@ public class Spatula {
     public String toString() {
         return "Spatula [shape=" + shape + ", size=" + size + ", speed=" + speed + "]";
     }
+    @Override
+    public int hashCode(){
+        return 9875;
+    }
 }

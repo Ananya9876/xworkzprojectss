@@ -15,4 +15,8 @@ public class Crayon {
     public String toString() {
         return "Crayon [material=" + material + ", flexibility=" + flexibility + ", power=" + power + "]";
     }
+    @Override
+    public int hashCode(){
+        return 85897;
+    }
 }

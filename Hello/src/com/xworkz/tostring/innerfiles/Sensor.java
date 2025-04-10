@@ -15,4 +15,9 @@ public class Sensor {
     public String toString() {
         return "Sensor [power=" + power + ", weight=" + weight + ", color=" + color + "]";
     }
+
+    @Override
+    public int hashCode(){
+        return 90165;
+    }
 }

@@ -15,4 +15,9 @@ public class RollingPin {
     public String toString() {
         return "RollingPin [size=" + size + ", speed=" + speed + ", power=" + power + "]";
     }
+
+    @Override
+    public int hashCode(){
+        return 459;
+    }
 }

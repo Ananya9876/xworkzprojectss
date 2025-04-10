@@ -15,4 +15,8 @@ public class Faucet {
     public String toString() {
         return "Faucet [thickness=" + thickness + ", texture=" + texture + ", range=" + range + "]";
     }
+    @Override
+    public int hashCode(){
+        return 801023;
+    }
 }

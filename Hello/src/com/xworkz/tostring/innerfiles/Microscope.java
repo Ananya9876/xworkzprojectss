@@ -15,4 +15,8 @@ public class Microscope {
     public String toString() {
         return "Microscope [range=" + range + ", width=" + width + ", density=" + density + "]";
     }
+    @Override
+    public int hashCode(){
+        return 900;
+    }
 }

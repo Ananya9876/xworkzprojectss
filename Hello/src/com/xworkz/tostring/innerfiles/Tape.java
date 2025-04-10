@@ -15,4 +15,9 @@ public class Tape {
     public String toString() {
         return "Tape [range=" + range + ", power=" + power + ", shape=" + shape + "]";
     }
+
+    @Override
+    public int hashCode(){
+        return 3687;
+    }
 }

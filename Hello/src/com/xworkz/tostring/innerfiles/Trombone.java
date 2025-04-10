@@ -15,4 +15,8 @@ public class Trombone {
     public String toString() {
         return "Trombone [width=" + width + ", material=" + material + ", color=" + color + "]";
     }
+    @Override
+    public int hashCode(){
+        return 3367;
+    }
 }

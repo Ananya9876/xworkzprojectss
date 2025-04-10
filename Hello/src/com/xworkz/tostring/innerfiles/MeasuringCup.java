@@ -15,4 +15,8 @@ public class MeasuringCup {
     public String toString() {
         return "MeasuringCup [intensity=" + intensity + ", duration=" + duration + ", speed=" + speed + "]";
     }
+    @Override
+    public int hashCode(){
+        return 960;
+    }
 }

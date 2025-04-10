@@ -15,4 +15,9 @@ public class Server {
     public String toString() {
         return "Server [width=" + width + ", power=" + power + ", shape=" + shape + "]";
     }
+
+    @Override
+    public int hashCode(){
+        return 9600;
+    }
 }
