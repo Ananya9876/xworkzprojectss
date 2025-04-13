@@ -19,4 +19,20 @@ public class Envelope {
     public int hashCode(){
         return 801023;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj != null) {
+            System.out.println("Refer is not null");
+            if (obj instanceof Envelope) {
+                System.out.println("Ref is envelope,it will compare....");
+                Envelope envelope = this;
+                Envelope envelope1 = (Envelope) obj;
+                if ( envelope.intensity.equals(envelope1.intensity) && envelope.speed==envelope1.speed) {
+                    System.out.println("Both envelope are same");
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }
