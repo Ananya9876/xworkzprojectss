@@ -4,7 +4,7 @@ import com.xworkz.interfaces.interfaceclass.*;
 
 import java.lang.System;
 
-public class Switchboard implements Caliper, Casing, Charger, Chassis, Roof {
+public class Candles implements Caliper, Casing, Charger, Chassis, Roof {
     public void measure() {
         System.out.println("measure called");
     }
