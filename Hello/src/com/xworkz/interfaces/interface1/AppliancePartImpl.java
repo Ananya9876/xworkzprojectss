@@ -12,7 +12,7 @@ public class AppliancePartImpl implements AppliancePart {
     public void inspect() {
         System.out.println("inspect called");
     }
-
-
-
+    public void remove() {
+        System.out.println("Remove the appliance part.");
+    }
 }

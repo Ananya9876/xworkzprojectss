@@ -12,6 +12,7 @@ public class CaliperImpl implements Caliper {
     public void reset() {
         System.out.println("reset called");
     }
-
-
+    public void write() {
+        System.out.println("Writing...");
+    }
 }

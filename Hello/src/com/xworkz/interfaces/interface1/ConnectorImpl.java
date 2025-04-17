@@ -12,5 +12,7 @@ public class ConnectorImpl implements Connector {
     public void release() {
         System.out.println("release called");
     }
-
+    public void info() {
+        System.out.println("Information...");
+    }
 }

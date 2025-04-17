@@ -12,5 +12,7 @@ public class BoltImpl implements Bolt {
     public void fasten() {
         System.out.println("fasten called");
     }
-
+    public void slower() {
+        System.out.println("Slowing of the bolt.");
+    }
 }

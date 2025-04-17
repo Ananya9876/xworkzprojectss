@@ -12,5 +12,7 @@ public class HousingImpl implements Housing {
     public void vent() {
         System.out.println("vent called");
     }
-
+    public void floor() {
+        System.out.println("Floor is build..");
+    }
 }

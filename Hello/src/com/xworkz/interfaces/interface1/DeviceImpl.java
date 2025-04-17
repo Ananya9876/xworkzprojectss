@@ -12,5 +12,7 @@ public class DeviceImpl implements Device {
     public void reset() {
         System.out.println("reset called");
     }
-
+    public void run() {
+        System.out.println("Working...");
+    }
 }

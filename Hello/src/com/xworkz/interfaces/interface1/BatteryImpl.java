@@ -12,5 +12,7 @@ public class BatteryImpl implements Battery {
     public void recycle() {
         System.out.println("recycle called");
     }
-
+    public void batterydown() {
+        System.out.println("Switch off due to battery down.");
+    }
 }

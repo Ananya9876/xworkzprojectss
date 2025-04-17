@@ -12,5 +12,7 @@ public class CoverImpl implements Cover {
     public void protect() {
         System.out.println("protect called");
     }
-
+    public void clean() {
+        System.out.println("Cleaning the cover..");
+    }
 }

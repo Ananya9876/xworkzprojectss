@@ -12,5 +12,7 @@ public class AccessoryImpl implements Accessory {
     public void clean() {
         System.out.println("clean called");
     }
-
+    public void wear() {
+        System.out.println("SmartDevice interface - default info: Connects and operates smartly.");
+    }
 }

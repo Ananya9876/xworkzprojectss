@@ -12,6 +12,7 @@ public class ComponentImpl implements Component {
     public void test() {
         System.out.println("test called");
     }
-
-
+    public void adjust() {
+        System.out.println("Adjustment of the component.");
+    }
 }

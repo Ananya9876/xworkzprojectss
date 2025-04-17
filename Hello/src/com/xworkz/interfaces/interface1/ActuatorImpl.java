@@ -12,5 +12,7 @@ public class ActuatorImpl implements Actuator {
     public void calibrate() {
         System.out.println("calibrate called");
     }
-
+    public void checkstatus() {
+        System.out.println("Actuator status: Ready and operational.");
+    }
 }

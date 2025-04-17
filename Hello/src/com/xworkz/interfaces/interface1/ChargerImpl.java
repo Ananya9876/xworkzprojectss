@@ -12,5 +12,7 @@ public class ChargerImpl implements Charger {
     public void disconnect() {
         System.out.println("disconnect called");
     }
-
+    public void poweron() {
+        System.out.println("Charging of the phone");
+    }
 }

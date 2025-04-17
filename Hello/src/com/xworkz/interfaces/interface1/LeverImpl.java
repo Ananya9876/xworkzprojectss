@@ -12,5 +12,7 @@ public class LeverImpl implements Lever {
     public void lock() {
         System.out.println("lock called");
     }
-
+    public void unlock() {
+        System.out.println("Unlock...");
+    }
 }

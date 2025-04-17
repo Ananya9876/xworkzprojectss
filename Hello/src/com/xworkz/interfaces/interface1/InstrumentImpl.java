@@ -12,5 +12,7 @@ public class InstrumentImpl implements Instrument {
     public void clean() {
         System.out.println("clean called");
     }
-
+    public void measure() {
+        System.out.println("Measuring of the instrument...");
+    }
 }

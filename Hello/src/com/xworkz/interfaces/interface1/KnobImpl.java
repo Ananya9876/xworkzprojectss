@@ -12,5 +12,7 @@ public class KnobImpl implements Knob {
     public void calibrate() {
         System.out.println("calibrate called");
     }
-
+    public void knot() {
+        System.out.println("Tying...");
+    }
 }

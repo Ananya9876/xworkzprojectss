@@ -12,5 +12,7 @@ public class LevelImpl implements Level {
     public void indicate() {
         System.out.println("indicate called");
     }
-
+    public void place() {
+        System.out.println("Level is placed...");
+    }
 }

@@ -12,5 +12,7 @@ public class DisplayImpl implements Display {
     public void clear() {
         System.out.println("clear called");
     }
-
+    public void remove() {
+        System.out.println("Display is removed...");
+    }
 }

@@ -12,5 +12,7 @@ public class ClampImpl implements Clamp {
     public void lock() {
         System.out.println("lock called");
     }
-
+    public void error() {
+        System.out.println("Error in the clamp.");
+    }
 }

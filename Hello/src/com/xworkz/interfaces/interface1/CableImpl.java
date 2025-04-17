@@ -12,7 +12,7 @@ public class CableImpl implements Cable {
     public void unplug() {
         System.out.println("unplug called");
     }
-
-
-
+    public void plug() {
+        System.out.println("Plugging to the switch.");
+    }
 }

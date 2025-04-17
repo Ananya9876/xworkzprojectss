@@ -12,5 +12,7 @@ public class ButtonImpl implements Button {
     public void reset() {
         System.out.println("reset called");
     }
-
+    public void shell() {
+        System.out.println("Working with shell.");
+    }
 }

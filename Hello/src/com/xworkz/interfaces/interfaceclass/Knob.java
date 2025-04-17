@@ -4,4 +4,8 @@ public interface Knob {
     void rotate();
     void adjust();
     void calibrate();
+    default void knot() {
+        System.out.println("Tying...");
+    }
+
 }

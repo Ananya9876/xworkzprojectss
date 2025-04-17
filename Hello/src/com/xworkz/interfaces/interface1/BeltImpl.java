@@ -12,5 +12,7 @@ public class BeltImpl implements Belt {
     public void slip() {
         System.out.println("slip called");
     }
-
+    public void color() {
+        System.out.println("color is usually brown and black.");
+    }
 }

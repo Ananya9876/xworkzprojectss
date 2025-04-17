@@ -12,5 +12,7 @@ public class LockImpl implements Lock {
     public void jam() {
         System.out.println("jam called");
     }
-
+    public void key() {
+        System.out.println("Key is used for lock...");
+    }
 }

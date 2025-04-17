@@ -12,5 +12,7 @@ public class MachineImpl implements Machine {
     public void calibrate() {
         System.out.println("calibrate called");
     }
-
+    public void run() {
+        System.out.println("Alarm is ringing...");
+    }
 }

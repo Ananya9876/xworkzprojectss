@@ -12,5 +12,7 @@ public class CompassImpl implements Compass {
     public void measure() {
         System.out.println("measure called");
     }
-
+    public void fix() {
+        System.out.println("Fixing...");
+    }
 }

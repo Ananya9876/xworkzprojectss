@@ -12,5 +12,7 @@ public class BladeImpl implements Blade {
     public void store() {
         System.out.println("store called");
     }
-
+    public void shape() {
+        System.out.println("Rectangular shape...");
+    }
 }

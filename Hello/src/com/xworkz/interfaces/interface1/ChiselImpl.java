@@ -12,5 +12,7 @@ public class ChiselImpl implements Chisel {
     public void shape() {
         System.out.println("shape called");
     }
-
+    public void size() {
+        System.out.println("Sizing of the chisel.");
+    }
 }

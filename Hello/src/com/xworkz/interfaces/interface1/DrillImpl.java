@@ -12,5 +12,7 @@ public class DrillImpl implements Drill {
     public void stop() {
         System.out.println("stop called");
     }
-
+    public void work() {
+        System.out.println("To make holes on the wall...");
+    }
 }

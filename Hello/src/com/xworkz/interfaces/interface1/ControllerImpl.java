@@ -12,5 +12,7 @@ public class ControllerImpl implements Controller {
     public void reset() {
         System.out.println("reset called");
     }
-
+    public void debug() {
+        System.out.println("Bebug the program...");
+    }
 }

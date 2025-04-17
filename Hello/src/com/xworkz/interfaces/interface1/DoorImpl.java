@@ -12,5 +12,7 @@ public class DoorImpl implements Door {
     public void unlock() {
         System.out.println("unlock called");
     }
-
+    public void lock() {
+        System.out.println("Door is locked...");
+    }
 }

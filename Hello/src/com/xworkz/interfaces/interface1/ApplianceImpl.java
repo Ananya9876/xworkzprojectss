@@ -12,5 +12,7 @@ public class ApplianceImpl implements Appliance {
     public void repair() {
         System.out.println("repair called");
     }
-
+    public void work() {
+        System.out.println("Working....");
+    }
 }

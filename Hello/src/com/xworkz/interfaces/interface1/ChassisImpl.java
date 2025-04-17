@@ -12,5 +12,7 @@ public class ChassisImpl implements Chassis {
     public void align() {
         System.out.println("align called");
     }
-
+    public void leave() {
+        System.out.println("ALeaving of the chass");
+    }
 }
