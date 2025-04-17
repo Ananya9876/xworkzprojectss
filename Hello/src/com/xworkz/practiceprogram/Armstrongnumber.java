@@ -1,8 +1,6 @@
 package com.xworkz.practiceprogram;
 
-
-
-public class Amstrongnumber {
+public class Armstrongnumber {
     public static void main(String[] args) {
         int num=153;
         int sum=0;
