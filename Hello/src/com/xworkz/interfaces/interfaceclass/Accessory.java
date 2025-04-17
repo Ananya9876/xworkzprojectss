@@ -6,7 +6,6 @@ public interface Accessory {
     void detach();
 
     void clean();
-
     default void wear() {
         System.out.println("SmartDevice interface - default info: Connects and operates smartly.");
     }

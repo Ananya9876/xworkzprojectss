@@ -5,6 +5,7 @@ public interface Actuator {
     void disengage();
     void calibrate();
 
+
     default void checkstatus() {
         System.out.println("Actuator status: Ready and operational.");
     }

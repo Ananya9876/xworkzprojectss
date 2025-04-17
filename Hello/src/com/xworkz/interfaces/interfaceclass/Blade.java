@@ -5,6 +5,7 @@ public interface Blade {
     void sharpen();
     void store();
 
+
     default void shape() {
         System.out.println("Rectangular shape...");
     }

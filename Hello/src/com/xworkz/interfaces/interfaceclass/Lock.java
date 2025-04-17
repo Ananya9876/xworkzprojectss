@@ -4,6 +4,7 @@ public interface Lock {
     void secure();
     void open();
     void jam();
+
     default void key() {
         System.out.println("Key is used for lock...");
     }

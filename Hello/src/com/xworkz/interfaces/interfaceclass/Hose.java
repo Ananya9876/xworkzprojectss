@@ -4,6 +4,7 @@ public interface Hose {
     void connect();
     void flow();
     void disconnect();
+
     default void ring() {
         System.out.println("Alarm is ringing...");
     }
