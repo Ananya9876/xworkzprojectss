@@ -1,6 +1,7 @@
 package com.xworkz.practiceprogram;
 
 public class Factorialnumber {
+
     public static void main(String[] args) {
 
     int n=5;
