@@ -17,6 +17,7 @@ public class AirConditionerUser {
             airconditioner.print();
         } else {
             System.out.println("AirConditioner is null.");
+            airconditioner.print();
         }
     }
 }

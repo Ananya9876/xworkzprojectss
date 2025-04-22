@@ -19,5 +19,6 @@ public class BccIuser {
         else {
             System.err.println("connector is null");
         }
+        icc.fairPlay();
     }
 }

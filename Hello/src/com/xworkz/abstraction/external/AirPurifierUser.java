@@ -17,6 +17,7 @@ public class AirPurifierUser {
             airpurifier.analyze();
         } else {
             System.out.println("AirPurifier is null.");
+            airpurifier.analyze();
         }
     }
 }

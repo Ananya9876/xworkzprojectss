@@ -18,5 +18,6 @@ public class ApplianceUser {
         } else {
             System.out.println("Appliance is null.");
         }
+        appliance.run();
     }
 }

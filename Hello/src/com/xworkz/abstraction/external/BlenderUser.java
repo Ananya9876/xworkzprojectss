@@ -18,5 +18,6 @@ public class BlenderUser {
         } else {
             System.out.println("Blender is null.");
         }
+        blender.navigate();
     }
 }
