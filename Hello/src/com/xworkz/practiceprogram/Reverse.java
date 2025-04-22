@@ -16,7 +16,7 @@ public class Reverse {
 
             for(int j=letter.length-1;j>=0;j--){
                 rev=letter[j];
-                System.out.print(rev+" ");
+                System.out.print((char)rev+" ");
             }
         }
 }
