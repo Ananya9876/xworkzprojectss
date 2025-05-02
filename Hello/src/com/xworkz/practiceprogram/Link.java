@@ -12,9 +12,9 @@ public class Link {
         st.push(3);
         st.push(4);
 
-        if(!st.isEmpty()){
-            System.out.println(st.pop());
-            st.peek();
+        while(!st.isEmpty()){
+            System.out.println(st.peek());
+            st.pop();
         }
 
     }
