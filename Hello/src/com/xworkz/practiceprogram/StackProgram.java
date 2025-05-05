@@ -4,7 +4,7 @@ package com.xworkz.practiceprogram;
 
 import java.util.Stack;
 
-public class Link {
+public class StackProgram {
     public static void main(String[] args) {
         Stack<Integer> st=new Stack<>();
         st.push(1);
