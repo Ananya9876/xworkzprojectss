@@ -7,7 +7,7 @@ class node{
 }
 
 
-public class Linked {
+public class LinkedList {
     public static void main(String[] args) {
         node node2=new node();
         node2.value=5;
