@@ -12,6 +12,7 @@ public class StackProgram {
         st.push(3);
         st.push(4);
 
+        
         while(!st.isEmpty()){
             System.out.println(st.peek());
             st.pop();
