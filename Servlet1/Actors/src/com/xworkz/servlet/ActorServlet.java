@@ -1,19 +1,21 @@
 package com.xworkz.servlet;
 
+import javax.servlet.GenericServlet;
 import javax.servlet.ServletException;
+import javax.servlet.ServletRequest;
+import javax.servlet.ServletResponse;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.*;
 import java.io.IOException;
 import java.io.PrintWriter;
 
 @WebServlet("/actor")
-public class ActorServlet extends HttpServlet {
-
+public class ActorServlet extends GenericServlet {
     @Override
-    protected void doPost(HttpServletRequest req, HttpServletResponse resp)
+    public void service(ServletRequest servletRequest, ServletResponse servletResponse)
             throws ServletException, IOException {
 
-        resp.setContentType("text/html");
+        ServletResponse.setContentType("text/html");
         PrintWriter out = resp.getWriter();
 
         String name = req.getParameter("name");
@@ -37,4 +39,6 @@ public class ActorServlet extends HttpServlet {
         out.println("<p>Director: " + director + "</p>");
         out.println("<p>Budget: " + budget + "</p>");
     }
+
+
 }
